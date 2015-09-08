@@ -2,7 +2,6 @@ package project1
 
 import akka.actor._
 import java.net.InetAddress
-import java.util
 
 import com.typesafe.config.{ConfigFactory, Config}
 
@@ -24,29 +23,26 @@ object Server /*extends App*/ {
   def isNumeric(input: String): Boolean = input.forall(_.isDigit)
 
   def runAsServer = {
-    val system = ActorSystem("HelloRemoteSystem")
+    val mapServer = new java.util.HashMap[String, Object]
+    mapServer.put("akka.actor.provider", "akka.remote.RemoteActorRefProvider")
+    mapServer.put("akka.remote.netty.tcp.hostname", InetAddress.getLocalHost.getHostAddress)
+    mapServer.put("akka.remote.netty.tcp.port", "5150")
+    val akkaConfigServer = ConfigFactory.parseMap(mapServer)
+    val system = ActorSystem("HelloRemoteSystem", akkaConfigServer)
     val remoteActor = system.actorOf(Props[RemoteActor], name = "RemoteActor")
     remoteActor ! "The RemoteActor is alive"
   }
 
   def runAsClient = {
-    val map = new java.util.HashMap[String, Object]
-    //applyRemoteSettings(map)
-    map.put("akka.actor.provider", "akka.remote.RemoteActorRefProvider")
-    map.put("akka.remote.netty.tcp.hostname", "127.0.0.1")
-    map.put("akka.remote.netty.tcp.port", "0")
-    //ConfigFactory.parseMap(map)
-    val akkaConfig = ConfigFactory.parseMap(map)
-    implicit val system = ActorSystem("LocalSystem", akkaConfig)
-    val localActor = system.actorOf(Props[LocalActor], name = "LocalActor")  // the local actor
+    val mapClient = new java.util.HashMap[String, Object]
+    mapClient.put("akka.actor.provider", "akka.remote.RemoteActorRefProvider")
+    mapClient.put("akka.remote.netty.tcp.hostname", InetAddress.getLocalHost.getHostAddress)
+    mapClient.put("akka.remote.netty.tcp.port", "0")
+    val akkaConfigClient = ConfigFactory.parseMap(mapClient)
+    implicit val system = ActorSystem("LocalSystem", akkaConfigClient)
+    val localActor = system.actorOf(Props(new LocalActor(1,2,3)), name = "LocalActor")  // the local actor
     localActor ! "START"                                                     // start the action
   }
-
-  /*def applyRemoteSettings(map: util.HashMap[String, Object]) = {
-    //map.put("akka.actor.provider", "akka.remote.RemoteActorRefProvider")
-    //map.put("akka.remote.netty.tcp.hostname", InetAddress.getLocalHost.getHostAddress)
-    map.put("akka.remote.netty.tcp.port", "0")
-  }*/
 
 }
 
@@ -58,9 +54,10 @@ class RemoteActor extends Actor {
   }
 }
 
-class LocalActor extends Actor {
+class LocalActor(numOfZeros: Integer, startNum: Integer, endNum: Integer) extends Actor {
+  println("Num of Zeros: " + numOfZeros)
   // create the remote actor
-  val remote = context.actorSelection("akka.tcp://HelloRemoteSystem@127.0.0.1:5150/user/RemoteActor")
+  val remote = context.actorSelection("akka.tcp://HelloRemoteSystem@" + InetAddress.getLocalHost.getHostAddress + ":5150/user/RemoteActor")
   var counter = 0
 
   def receive = {
