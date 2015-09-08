@@ -72,7 +72,8 @@ class LocalActor(numOfZeros: Integer, startNum: Integer, endNum: Integer) extend
       while (i < endNum) {
         val coinHash = getCoinHash(i.toLong)
         if (coinHash.toString().startsWith(getPattern(numOfZeros))) {
-          println(coinHash.toString())
+          //println(coinHash.toString())
+          remote ! coinHash.toString()
         }
 
         i += 1
