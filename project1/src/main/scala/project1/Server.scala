@@ -2,8 +2,11 @@ package project1
 
 import akka.actor._
 import java.net.InetAddress
-
 import com.typesafe.config.{ConfigFactory, Config}
+import java.math.BigInteger
+import scala.language.postfixOps
+import org.apache.commons.codec.binary.Base64
+import com.roundeights.hasher.Implicits._
 
 /**
  * Created by chelsea on 9/6/15.
@@ -40,7 +43,7 @@ object Server /*extends App*/ {
     mapClient.put("akka.remote.netty.tcp.port", "0")
     val akkaConfigClient = ConfigFactory.parseMap(mapClient)
     implicit val system = ActorSystem("LocalSystem", akkaConfigClient)
-    val localActor = system.actorOf(Props(new LocalActor(1,2,3)), name = "LocalActor")  // the local actor
+    val localActor = system.actorOf(Props(new LocalActor(2,1,1000)), name = "LocalActor")  // the local actor
     localActor ! "START"                                                     // start the action
   }
 
@@ -54,6 +57,8 @@ class RemoteActor extends Actor {
   }
 }
 
+// -----------------------------------------------------------------------------------
+
 class LocalActor(numOfZeros: Integer, startNum: Integer, endNum: Integer) extends Actor {
   println("Num of Zeros: " + numOfZeros)
   // create the remote actor
@@ -62,12 +67,39 @@ class LocalActor(numOfZeros: Integer, startNum: Integer, endNum: Integer) extend
 
   def receive = {
     case "START" =>
+    {
+      var i = startNum
+      while (i < endNum) {
+        val coinHash = getCoinHash(i.toLong)
+        if (coinHash.toString().startsWith(getPattern(numOfZeros))) {
+          println(coinHash.toString())
+        }
+
+        i += 1
+      }
       remote ! "Hello from the LocalActor"
+    }
     case msg: String =>
       println(s"LocalActor received message: '$msg'")
       if (counter < 5) {
         sender ! "Hello back to you"
         counter += 1
       }
+  }
+
+  def getCoinHash(idx: Long) = {
+    val value = new String(Base64.encodeInteger(BigInteger.valueOf(idx)))
+    val hashed = value.sha256.hex
+    hashed
+  }
+
+  def getPattern(numOfZeros: Integer) = {
+    var s = ""
+    var i = 0
+    while (i < numOfZeros) {
+      i += 1
+      s ++= "0"
+    }
+    s
   }
 }
