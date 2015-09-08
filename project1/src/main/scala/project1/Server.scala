@@ -71,9 +71,11 @@ class LocalActor(numOfZeros: Integer, startNum: Integer, endNum: Integer) extend
       var i = startNum
       while (i < endNum) {
         val coinHash = getCoinHash(i.toLong)
-        if (coinHash.toString().startsWith(getPattern(numOfZeros))) {
-          //println(coinHash.toString())
-          remote ! coinHash.toString()
+        //println("COINHASH!!!! " + coinHash)
+        //println(coinHash._2.startsWith(getPattern(numOfZeros)))
+        if (coinHash._2.startsWith(getPattern(numOfZeros))) {
+          //println("COINHASH!!!! " + coinHash)
+          remote ! coinHash._1 + '\t' + coinHash._2
         }
 
         i += 1
@@ -88,10 +90,12 @@ class LocalActor(numOfZeros: Integer, startNum: Integer, endNum: Integer) extend
       }
   }
 
-  def getCoinHash(idx: Long) = {
-    val value = new String(Base64.encodeInteger(BigInteger.valueOf(idx)))
+  def getCoinHash(idx: Long): (String, String) = {
+    val value = "chelseametcalf" + new String(Base64.encodeInteger(BigInteger.valueOf(idx)))
     val hashed = value.sha256.hex
-    hashed
+    //println("Value: " + value)
+    //hashed
+    (value, hashed)
   }
 
   def getPattern(numOfZeros: Integer) = {
