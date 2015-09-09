@@ -7,10 +7,19 @@ import java.math.BigInteger
 import scala.language.postfixOps
 import org.apache.commons.codec.binary.Base64
 import com.roundeights.hasher.Implicits._
+import scala.collection.mutable.ArrayBuffer
+import scala.collection.mutable
+
+trait Message
 
 /**
  * Created by chelsea on 9/6/15.
  */
+
+case class DoJobs(job: ArrayBuffer[Job]) extends Message
+case class DoWork(job: Job) extends Message
+case class Job(numOfZeros: Long, start: Long, end: Long)
+
 object Server /*extends App*/ {
   def main(args: Array[String]) = {
     println("Hello, " + args(0))
@@ -32,7 +41,7 @@ object Server /*extends App*/ {
     mapServer.put("akka.remote.netty.tcp.port", "5150")
     val akkaConfigServer = ConfigFactory.parseMap(mapServer)
     val system = ActorSystem("HelloRemoteSystem", akkaConfigServer)
-    val remoteActor = system.actorOf(Props[RemoteActor], name = "RemoteActor")
+    val remoteActor = system.actorOf(Props (new RemoteActor(2,1,1000)), name = "RemoteActor")
     remoteActor ! "The RemoteActor is alive"
   }
 
@@ -43,44 +52,50 @@ object Server /*extends App*/ {
     mapClient.put("akka.remote.netty.tcp.port", "0")
     val akkaConfigClient = ConfigFactory.parseMap(mapClient)
     implicit val system = ActorSystem("LocalSystem", akkaConfigClient)
-    val localActor = system.actorOf(Props(new LocalActor(2,1,1000)), name = "LocalActor")  // the local actor
+    val localActor = system.actorOf(Props[LocalActor], name = "LocalActor")  // the local actor
     localActor ! "START"                                                     // start the action
   }
 
 }
 
-class RemoteActor extends Actor {
+class RemoteActor(numOfZeros: Long, start: Long, end: Long) extends Actor {
   def receive = {
     case msg: String =>
-      println(s"RemoteActor received message '$msg'")
-      sender ! "Hello from the RemoteActor"
+      if (msg.equals("Need work!"))
+      {
+        sender ! Job(numOfZeros, start, end)
+        //sender ! "Hello from the RemoteActor"
+      }
+      else {
+        println(s"RemoteActor received message '$msg'")
+      }
   }
 }
 
 // -----------------------------------------------------------------------------------
 
-class LocalActor(numOfZeros: Integer, startNum: Integer, endNum: Integer) extends Actor {
-  println("Num of Zeros: " + numOfZeros)
+class LocalActor extends Actor {
+  //println("Num of Zeros: " + numOfZeros)
   // create the remote actor
   val remote = context.actorSelection("akka.tcp://HelloRemoteSystem@" + InetAddress.getLocalHost.getHostAddress + ":5150/user/RemoteActor")
   var counter = 0
 
   def receive = {
+    case Job(numOfZeros, start, end) =>
+    {
+        var i = start
+        while (i < end) {
+          val coinHash = getCoinHash(i)
+          if (coinHash._2.startsWith(getPattern(numOfZeros))) {
+            remote ! coinHash._1 + '\t' + coinHash._2
+          }
+
+          i += 1
+        }
+    }
     case "START" =>
     {
-      var i = startNum
-      while (i < endNum) {
-        val coinHash = getCoinHash(i.toLong)
-        //println("COINHASH!!!! " + coinHash)
-        //println(coinHash._2.startsWith(getPattern(numOfZeros)))
-        if (coinHash._2.startsWith(getPattern(numOfZeros))) {
-          //println("COINHASH!!!! " + coinHash)
-          remote ! coinHash._1 + '\t' + coinHash._2
-        }
-
-        i += 1
-      }
-      remote ! "Hello from the LocalActor"
+      remote ! "Need work!"
     }
     case msg: String =>
       println(s"LocalActor received message: '$msg'")
@@ -98,7 +113,7 @@ class LocalActor(numOfZeros: Integer, startNum: Integer, endNum: Integer) extend
     (value, hashed)
   }
 
-  def getPattern(numOfZeros: Integer) = {
+  def getPattern(numOfZeros: Long) = {
     var s = ""
     var i = 0
     while (i < numOfZeros) {
