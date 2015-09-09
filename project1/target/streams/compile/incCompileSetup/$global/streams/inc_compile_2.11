@@ -19,26 +19,34 @@ name hashing:
 1 items
 0 -> true
 products:
-10 items
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Master.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Master.class
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/LocalActor$$anonfun$receive$2.class
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/LocalActor.class
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/RemoteActor$$anonfun$receive$1.class
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/RemoteActor.class
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Server$$anonfun$isNumeric$1.class
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Server$.class
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Server.class
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Worker$.class
+13 items
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Main$$anonfun$1.class
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Main$$anonfun$isNumeric$1.class
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Main$.class
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Main.class
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/RemoteActor$$anonfun$receive$1.class
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/RemoteActor.class
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/DoWork$.class
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/DoWork.class
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Job$.class
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Job.class
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Message.class
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Worker$$anonfun$receive$1.class
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> /Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Worker.class
 binary dependencies:
-9 items
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Master.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Master.scala -> /Users/chelsea/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> /Users/chelsea/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> /Users/chelsea/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+14 items
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> /Users/chelsea/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> /Users/chelsea/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> /Users/chelsea/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> /Users/chelsea/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> /Users/chelsea/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> /Users/chelsea/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> /Users/chelsea/.ivy2/cache/com.roundeights/hasher_2.11/jars/hasher_2.11-1.0.0.jar
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> /Users/chelsea/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> /Users/chelsea/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> /Users/chelsea/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
 direct source dependencies:
@@ -50,7 +58,11 @@ public inherited source dependencies:
 public inherited external dependencies:
 0 items
 member reference internal dependencies:
-0 items
+4 items
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala
 member reference external dependencies:
 0 items
 inheritance internal dependencies:
@@ -58,162 +70,293 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-10 items
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Master.scala -> project1.Master
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> project1.LocalActor
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> project1.LocalActor$$anonfun$receive$2
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> project1.RemoteActor
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> project1.RemoteActor$$anonfun$receive$1
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> project1.Server
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> project1.Server$
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> project1.Server$$anonfun$isNumeric$1
+13 items
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> project1.Main
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> project1.Main$
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> project1.Main$$anonfun$1
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> project1.Main$$anonfun$isNumeric$1
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> project1.RemoteActor
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> project1.RemoteActor$$anonfun$receive$1
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> project1.DoWork
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> project1.DoWork$
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> project1.Job
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> project1.Job$
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> project1.Message
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> project1.Worker
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> project1.Worker$
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> project1.Worker$$anonfun$receive$1
 used names:
-91 items
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Master.scala -> <init>
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Master.scala -> Actor
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Master.scala -> ActorRef
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Master.scala -> AnyRef
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Master.scala -> Master
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Master.scala -> actor
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Master.scala -> akka
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Master.scala -> project1
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Master.scala -> scala
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> !
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> +
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> <
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> <init>
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> ==
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> A1
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> Actor
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> ActorSelection
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> ActorSystem
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> AnyRef
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> Array
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> B1
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> Boolean
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> ClassTag
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> Function1
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> LocalActor
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> Predef
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> Props
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> RemoteActor
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> Server
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> String
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> StringContext
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> actor
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> actorOf
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> actorRef2Scala
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> actorSelection
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> akka
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> apply
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> args
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> asInstanceOf
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> augmentString
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> charWrapper
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> context
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> counter
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> counter_=
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> forall
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> input
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> isDigit
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> isInstanceOf
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> isNumeric
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> localActor
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> materializeClassTag
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> package
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> println
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> project1
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> qual$1
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> qual$2
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> remote
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> remoteActor
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> runAsClient
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> runAsServer
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> s
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> scala
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> self
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> sender
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> system
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> toScala
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> unchecked
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> x$2
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> x$3
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> x$4
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> x$5
+206 items
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> !
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> +
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> <init>
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> ActorSystem
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> AnyRef
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> Array
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> Boolean
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> ClassTag
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> ConfigFactory
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> HashMap
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> InetAddress
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> Long
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> Main
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> Object
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> Predef
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> Props
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> RemoteActor
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> String
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> Worker
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> actor
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> actorOf
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> actorRef2Scala
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> akka
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> akkaConfigClient
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> akkaConfigServer
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> apply
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> args
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> augmentString
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> charWrapper
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> com
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> config
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> end
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> forall
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> getHostAddress
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> getLocalHost
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> input
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> ipAddress
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> isDigit
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> isNumeric
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> java
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> lang
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> localActor
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> mapClient
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> mapServer
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> materializeClassTag
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> net
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> numOfZeros
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> package
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> parseMap
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> println
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> project1
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> put
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> qual$1
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> qual$2
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> remoteActor
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> runAsClient
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> runAsServer
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> scala
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> start
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> system
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> toLong
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> typesafe
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> util
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> x$2
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> x$3
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> x$4
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> x$5
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> !
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> <init>
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> A1
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> Actor
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> B1
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> Function1
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> Long
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> Predef
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> RemoteActor
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> StringContext
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> actor
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> actorRef2Scala
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> akka
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> apply
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> asInstanceOf
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> end
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> equals
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> isInstanceOf
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> numOfZeros
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> package
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> println
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> project1
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> s
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> scala
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> self
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> sender
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> start
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> unchecked
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> &&
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> <init>
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> ==
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> AbstractFunction1
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> AbstractFunction3
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> AnyRef
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> DoWork
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> Job
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> Long
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> Message
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> None
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> Product
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> ScalaRunTime
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> Serializable
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> Statics
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> _hashCode
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> _toString
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> asInstanceOf
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> end
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> eq
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> finalizeHash
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> isInstanceOf
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> job
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> longHash
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> mix
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> numOfZeros
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> project1
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> runtime
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> scala
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> start
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> toString
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> typedProductIterator
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> ||
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> !
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> +
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> ++
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> <
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> <init>
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> AnyRef
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> ==
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> A1
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> Actor
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> ActorSelection
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> B1
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> Base64
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> BigInteger
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> Function1
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> Implicits
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> InetAddress
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> Long
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> Predef
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> String
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> StringCanBuildFrom
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> StringContext
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> Tuple2
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> Worker
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> _1
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> _2
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> actor
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> actorRef2Scala
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> actorSelection
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> akka
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> apache
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> apply
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> asInstanceOf
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> augmentString
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> binary
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> codec
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> coinHash
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> com
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> commons
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> context
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> counter
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> counter_=
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> encodeInteger
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> end
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> getCoinHash
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> getHostAddress
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> getLocalHost
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> getPattern
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> hash
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> hasher
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> hex
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> i
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> idx
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> inputString
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> isInstanceOf
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> java
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> language
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> math
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> net
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> numOfZeros
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> org
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> postfixOps
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> package
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> println
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> project1
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> remote
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> roundeights
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> s
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> scala
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> self
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> sender
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> sha256
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> shutdown
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> start
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> startsWith
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> stringToHasher
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> system
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> toScala
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> unchecked
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> valueOf
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> while$1
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> while$2
 product stamps:
-10 items
-/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/LocalActor$$anonfun$receive$2.class -> lastModified(1441652760000)
-/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/LocalActor.class -> lastModified(1441652760000)
-/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Master.class -> lastModified(1441651423000)
-/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/RemoteActor$$anonfun$receive$1.class -> lastModified(1441652760000)
-/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/RemoteActor.class -> lastModified(1441652760000)
-/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Server$$anonfun$isNumeric$1.class -> lastModified(1441652760000)
-/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Server$.class -> lastModified(1441652760000)
-/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Server.class -> lastModified(1441652760000)
-/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Worker$.class -> lastModified(1441651423000)
-/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Worker.class -> lastModified(1441651423000)
+13 items
+/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/DoWork$.class -> lastModified(1441821211000)
+/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/DoWork.class -> lastModified(1441821211000)
+/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Job$.class -> lastModified(1441821211000)
+/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Job.class -> lastModified(1441821211000)
+/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Main$$anonfun$1.class -> lastModified(1441821211000)
+/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Main$$anonfun$isNumeric$1.class -> lastModified(1441821211000)
+/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Main$.class -> lastModified(1441821211000)
+/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Main.class -> lastModified(1441821211000)
+/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Message.class -> lastModified(1441821211000)
+/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/RemoteActor$$anonfun$receive$1.class -> lastModified(1441821211000)
+/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/RemoteActor.class -> lastModified(1441821211000)
+/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Worker$$anonfun$receive$1.class -> lastModified(1441821211000)
+/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes/project1/Worker.class -> lastModified(1441821211000)
 source stamps:
-3 items
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Master.scala -> hash(1ec7b9043a67ad50507098e2b3cdafa87ccf4b33)
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> hash(d4eb4fb1e20165fba4a489958258b431f2004363)
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> hash(ea7cf62056410a410a638c227dbbab23d3e08380)
+4 items
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> hash(11e9997e6c4f0d48b3f1e005ca04190b9faf6764)
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> hash(e5688ee9d4f79d5abe7be3b78217daf09a7629aa)
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> hash(ec78b079fe7d7147a49f9ba4d79998f67c0f2c24)
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> hash(3caef81462f4ef768617bc14725992add8aa2047)
 binary stamps:
-5 items
+6 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1410998958000)
 /Users/chelsea/.ivy2/cache/com.roundeights/hasher_2.11/jars/hasher_2.11-1.0.0.jar -> lastModified(1441559189000)
 /Users/chelsea/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar -> lastModified(1431096334000)
+/Users/chelsea/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar -> lastModified(1399042454000)
 /Users/chelsea/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar -> lastModified(1415283333000)
 /Users/chelsea/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> lastModified(1435004218000)
 class names:
-5 items
+6 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
 /Users/chelsea/.ivy2/cache/com.roundeights/hasher_2.11/jars/hasher_2.11-1.0.0.jar -> com.roundeights.hasher.Implicits$
 /Users/chelsea/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar -> akka.actor.Actor
+/Users/chelsea/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar -> com.typesafe.config.ConfigFactory
 /Users/chelsea/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar -> org.apache.commons.codec.binary.Base64
 /Users/chelsea/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.Serializable
 internal apis:
-3 items
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Master.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBK1z8SAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cEY+gFl0AAZub3RpZnlzcQB+AAxzeXxKdAAEd2FpdHNxAH4ADMrSB910AAZNYXN0ZXJzcQB+AAysuXEGdAANJGFzSW5zdGFuY2VPZnNxAH4ADExx/TB0AAZlcXVhbHNzcQB+AAw7bXu7dAAMYXNJbnN0YW5jZU9mc3EAfgAM0TT3XXQADHN5bmNocm9uaXplZHNxAH4ADLL6Z0h0AA0kaXNJbnN0YW5jZU9mc3EAfgAMVcaVc3QACW5vdGlmeUFsbHNxAH4ADKr7bah0AAxpc0luc3RhbmNlT2ZzcQB+AAwf+/vxdAAGPGluaXQ+c3EAfgAMKOAefXQAAj09c3EAfgAMoWY10nQABWNsb25lc3EAfgAMdi8X4nQACHRvU3RyaW5nc3EAfgAMrwQazHQAAiE9c3EAfgAM3FSp13QACGdldENsYXNzc3EAfgAMyv+BAXQAAm5lc3EAfgAMGd7DiXQAAmVxc3EAfgAMOqHtkHQAAiMjc3EAfgAM3Np0jnQACGZpbmFsaXplc3EAfgAM2zQrJnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAD3Byb2plY3QxLk1hc3RlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBZAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AGBzcQB+AFkBdXEAfgA8AAAAAHBzcQB+AFkBdXEAfgA8AAAAAHBzcQB+AFkBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBfdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBfc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB4dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB5c3EAfgBsdAADQW55c3EAfgBwc3EAfgBzdXEAfgB2AAAAAnNxAH4AeHQABXNjYWxhcQB+AH9wcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACHByb2plY3Qxc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFPqR7aknVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AD4vVXNlcnMvY2hlbHNlYS9JZGVhUHJvamVjdHMvcHJvamVjdDEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFB7HuQQ6Z61QUHCY4rPNr6h8z0sz
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAMo5yQAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwnXP0xXQABHNlbGZzcQB+AAvzJZSndAAHY29udGV4dHVxAH4ACQAAACtzcQB+AAusSLY2dAAGbm90aWZ5c3EAfgALkQ0q53QAB1JlY2VpdmVzcQB+AAv/MZAPdAAJaXNOdW1lcmljc3EAfgAL9hLFlXQABHdhaXRzcQB+AAvf6unNdAANJGFzSW5zdGFuY2VPZnNxAH4ACyzCnmx0AAZTZXJ2ZXJzcQB+AAsQCkDkdAAGZXF1YWxzc3EAfgALuxPHKXQAC3J1bkFzQ2xpZW50c3EAfgALXceQanQADGFzSW5zdGFuY2VPZnNxAH4AC0rQBJV0AAxzeW5jaHJvbml6ZWRzcQB+AAufYIJhdAANJGlzSW5zdGFuY2VPZnNxAH4ACyeLE1h0AAdyZWNlaXZlc3EAfgAL68msf3QACnByZVJlc3RhcnRzcQB+AAugnDULdAANYXJvdW5kUmVjZWl2ZXNxAH4AC8WjceJ0AAtwb3N0UmVzdGFydHNxAH4AC+QwblF0AARtYWluc3EAfgALGuFwoHQACHBvc3RTdG9wc3EAfgALD73T1XQAC1JlbW90ZUFjdG9yc3EAfgALMXjkm3QACW5vdGlmeUFsbHNxAH4AC0k8UQR0ABFhcm91bmRQb3N0UmVzdGFydHNxAH4ACzY+Fi50AAxpc0luc3RhbmNlT2ZzcQB+AAsemgeAdAAQYXJvdW5kUHJlUmVzdGFydHNxAH4ACym3zMl0AA5hcm91bmRQb3N0U3RvcHNxAH4AC4laXQR0AApMb2NhbEFjdG9yc3EAfgALc3Ksp3QABjxpbml0PnNxAH4AC2cL6Cp0AAZyZW1vdGVzcQB+AAuvYhjDdAAIcHJlU3RhcnRzcQB+AAtKpWdtdAAJdW5oYW5kbGVkc3EAfgAL2aHqt3QAAj09c3EAfgALoHTOrHQABWNsb25lc3EAfgALAIwuT3QAC3J1bkFzU2VydmVyc3EAfgAL0E8IG3QABnNlbmRlcnNxAH4AC0YiPph0AAdjb3VudGVyc3EAfgALV0suIXQACHRvU3RyaW5nc3EAfgALBfkAPnQAAiE9c3EAfgALHwNY93QACGdldENsYXNzc3EAfgAL8haltnQAAm5lc3EAfgALIptV/nQAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4ACwHjvCx0AAJlcXNxAH4AC0jV/1x0AAIjI3NxAH4AC1jgxzx0AAhmaW5hbGl6ZXNxAH4AC1le1yl0AAhoYXNoQ29kZXNxAH4ACwJ7asF0AA5hcm91bmRQcmVTdGFydHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAANzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AHF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AA9wcm9qZWN0MS5TZXJ2ZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCKeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCJAHBzcQB+AI5zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AcUwACWluaGVyaXRlZHEAfgBxTAAHcGFyZW50c3EAfgBxeHEAfgCSc3EAfgCJAHBzcQB+AI51cQB+AGwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AHJxAH4Ae3VxAH4AfAAAAABzcQB+AH4AcQB+ADF1cQB+AIEAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AkXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AJFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AK91cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1M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
+4 items
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDe+QZEAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cGjreGR0AAZub3RpZnlzcQB+AAxxZTLLdAAJaXNOdW1lcmljc3EAfgAMEfSro3QABHdhaXRzcQB+AAw/69bhdAANJGFzSW5zdGFuY2VPZnNxAH4ADCaYXEF0AAZlcXVhbHNzcQB+AAzmT0JbdAALcnVuQXNDbGllbnRzcQB+AAwzhwTXdAAMYXNJbnN0YW5jZU9mc3EAfgAMRyf073QADHN5bmNocm9uaXplZHNxAH4ADDEo0rB0AA0kaXNJbnN0YW5jZU9mc3EAfgAMwfWni3QABG1haW5zcQB+AAwgpJ7SdAAJbm90aWZ5QWxsc3EAfgAMulv7HXQADGlzSW5zdGFuY2VPZnNxAH4ADLho5j10AAI9PXNxAH4ADLeEZ5l0AAVjbG9uZXNxAH4ADOMXzLt0AAtydW5Bc1NlcnZlcnNxAH4ADDaOGw50AARNYWluc3EAfgAMKghfInQACHRvU3RyaW5nc3EAfgAMWyL5MXQAAiE9c3EAfgAMY7Cq5XQACGdldENsYXNzc3EAfgAMZ8yXhnQAAm5lc3EAfgAMXHTRj3QAAmVxc3EAfgAM+wneHnQAAiMjc3EAfgAMHrcYdXQACGZpbmFsaXplc3EAfgAM3pQisXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AR3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQADXByb2plY3QxLk1haW51cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AF8Bc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEdMAAlpbmhlcml0ZWRxAH4AR0wAB3BhcmVudHNxAH4AR3hxAH4AZnNxAH4AXwF1cQB+AEIAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEhxAH4AUXVxAH4AUgAAAABzcQB+AFQAcQB+ACF1cQB+AFcAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AZXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGVzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIF1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBueHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBadAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgB1WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBlc3EAfgB0dAAFQXJyYXlxAH4AenVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgB0dAAGU3RyaW5nc3EAfgB4c3EAfgB7dXEAfgB+AAAAA3NxAH4AgHQABGphdmFzcQB+AIB0AARsYW5ncQB+AIVwc3EAfgBfAXVxAH4AQgAAAABwc3EAfgBfAXVxAH4AmQAAAAJzcQB+AHR0AAZPYmplY3RxAH4AnXNxAH4AdHQAA0FueXEAfgB6cHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAhwcm9qZWN0MXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT7M9o5h1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA+L1VzZXJzL2NoZWxzZWEvSWRlYVByb2plY3RzL3Byb2plY3QxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQR6Zl+bE8NSLPx4AXKBBkLn69nZA==
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDvyc8eAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwg/3XsnQABHNlbGZzcQB+AAuEdyBmdAAHY29udGV4dHVxAH4ACQAAACNzcQB+AAv8gWm9dAAGbm90aWZ5c3EAfgALle7ee3QAB1JlY2VpdmVzcQB+AAswePMqdAAEd2FpdHNxAH4AC3derHx0AA0kYXNJbnN0YW5jZU9mc3EAfgALeqMSHXQABmVxdWFsc3NxAH4ACzrqMut0AAxhc0luc3RhbmNlT2ZzcQB+AAuFa2HjdAAMc3luY2hyb25pemVkc3EAfgALY6yw1XQADSRpc0luc3RhbmNlT2ZzcQB+AAvv+fF5dAAHcmVjZWl2ZXNxAH4AC8EJ4zd0AApwcmVSZXN0YXJ0c3EAfgALPMnZHHQADWFyb3VuZFJlY2VpdmVzcQB+AAsdUPthdAALcG9zdFJlc3RhcnRzcQB+AAtabD1/dAAIcG9zdFN0b3BzcQB+AAsPvdPVdAALUmVtb3RlQWN0b3JzcQB+AAuqejJRdAAJbm90aWZ5QWxsc3EAfgALF8vhjHQAEWFyb3VuZFBvc3RSZXN0YXJ0c3EAfgAL6k/ZXXQADGlzSW5zdGFuY2VPZnNxAH4AC2s61mt0ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgALiA66FnQADmFyb3VuZFBvc3RTdG9wc3EAfgALkZ34wXQABjxpbml0PnNxAH4AC8F1WXh0AAhwcmVTdGFydHNxAH4AC1wljHl0AAl1bmhhbmRsZWRzcQB+AAtiNDoZdAACPT1zcQB+AAsBJSwNdAAFY2xvbmVzcQB+AAvm8bEmdAAGc2VuZGVyc3EAfgALNO8hPHQACHRvU3RyaW5nc3EAfgALNQ/2iHQAAiE9c3EAfgALuBuwA3QACGdldENsYXNzc3EAfgALb/z6YHQAAm5lc3EAfgALjPSUM3QAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4AC84dLmB0AAJlcXNxAH4AC+sFBox0AAIjI3NxAH4ACzlH5Gx0AAhmaW5hbGl6ZXNxAH4ACwS+iDN0AAhoYXNoQ29kZXNxAH4AC87/5150AA5hcm91bmRQcmVTdGFydHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABRwcm9qZWN0MS5SZW1vdGVBY3RvcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgB5AXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBhTAAJaW5oZXJpdGVkcQB+AGFMAAdwYXJlbnRzcQB+AGF4cQB+AIBzcQB+AHkBdXEAfgBcAAAAAHBzcQB+AHkBdXEAfgBcAAAAAHBzcQB+AHkBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB/dAAFQWN0b3JzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AH9zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGFra2FzcQB+AJh0AAVhY3RvcnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCZc3EAfgCMdAAGT2JqZWN0c3EAfgCQc3EAfgCTdXEAfgCWAAAAA3NxAH4AmHQABGphdmFzcQB+AJh0AARsYW5ncQB+AJ9zcQB+AIx0AANBbnlzcQB+AJBzcQB+AJN1cQB+AJYAAAACc3EAfgCYdAAFc2NhbGFxAH4An3BwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAAIcHJvamVjdDFzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU+zPaOYdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQAPi9Vc2Vycy9jaGVsc2VhL0lkZWFQcm9qZWN0cy9wcm9qZWN0MS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU5WiO6dT3nVq+e+O3ghfa8Jp2Kao=
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDCO+DmAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cOHkQ+x0AAZub3RpZnlzcQB+AAy4HJOMdAAEd2FpdHNxAH4ADHKpukp0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADIEirQV0AA0kYXNJbnN0YW5jZU9mc3EAfgAMMKfMHnQADHByb2R1Y3RBcml0eXNxAH4ADMxx9kd0AAZlcXVhbHNzcQB+AAznGwIHdAAMYXNJbnN0YW5jZU9mc3EAfgAMer6FF3QADHN5bmNocm9uaXplZHNxAH4ADFVOQf90AA0kaXNJbnN0YW5jZU9mc3EAfgAMXeJaEHQAA2pvYnNxAH4ADBGgdUF0AAhjYW5FcXVhbHNxAH4ADNTdXVJ0AA1wcm9kdWN0UHJlZml4c3EAfgAMyGRLV3QAA0pvYnNxAH4ADA783Hp0AAlub3RpZnlBbGxzcQB+AAxsEFcXdAAMaXNJbnN0YW5jZU9mc3EAfgAMeW37pXQABkRvV29ya3NxAH4ADG5+fM50AAY8aW5pdD5zcQB+AAzjkWdOdAACPT1zcQB+AAyxqgQBdAAFY2xvbmVzcQB+AAyrpQzjdAAHTWVzc2FnZXNxAH4ADBgISsh0AApudW1PZlplcm9zc3EAfgAM7jXnxnQADmNvcHkkZGVmYXVsdCQzc3EAfgAMs9XTMnQABGNvcHlzcQB+AAzTtp/BdAADZW5kc3EAfgAM9f4N/HQACHRvU3RyaW5nc3EAfgAMQ5PW3nQAAiE9c3EAfgAMB00k8nQACGdldENsYXNzc3EAfgAMcaUnsnQADmNvcHkkZGVmYXVsdCQxc3EAfgAMcVc2YnQABXN0YXJ0c3EAfgAMC4d8HXQAAm5lc3EAfgAMNrz1lHQAAmVxc3EAfgAMPFhVEHQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADGmTmkh0AAIjI3NxAH4ADIztXgd0AAhmaW5hbGl6ZXNxAH4ADOypCdh0AA5wcm9kdWN0RWxlbWVudHNxAH4ADFMDIXx0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAANzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AF94cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAF0ABBwcm9qZWN0MS5NZXNzYWdldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAFVHJhaXR1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AHcBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AF9MAAlpbmhlcml0ZWRxAH4AX0wAB3BhcmVudHNxAH4AX3hxAH4AfnNxAH4AdwF1cQB+AFoAAAAAcHNxAH4AdwF1cQB+AFoAAAAAcHNxAH4AdwF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AH10AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx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
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDnlcPFAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cL60f5d0AAZub3RpZnlzcQB+AAwK4EKEdAAEd2FpdHNxAH4ADOhvEhF0AA0kYXNJbnN0YW5jZU9mc3EAfgAMpNaRkHQABmVxdWFsc3NxAH4ADJx18gV0AAxhc0luc3RhbmNlT2ZzcQB+AAzsp4V9dAAMc3luY2hyb25pemVkc3EAfgAMT1QzOHQADSRpc0luc3RhbmNlT2ZzcQB+AAzBEOjDdAAJbm90aWZ5QWxsc3EAfgAMSIjnl3QADGlzSW5zdGFuY2VPZnNxAH4ADEdfHZZ0AAI9PXNxAH4ADHqrjxJ0AAVjbG9uZXNxAH4ADJiC00x0AAh0b1N0cmluZ3NxAH4ADHKFSl10AAIhPXNxAH4ADPhqai10AAhnZXRDbGFzc3NxAH4ADA4nlJl0AAZXb3JrZXJzcQB+AAxpKVZ4dAACbmVzcQB+AAzAE6SidAACZXFzcQB+AAxPCSEEdAACIyNzcQB+AAzfAH/ydAAIZmluYWxpemVzcQB+AAwxmW68dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgA/eHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAPcHJvamVjdDEuV29ya2VydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AWHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AVwBwc3EAfgBcc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AD9MAAlpbmhlcml0ZWRxAH4AP0wAB3BhcmVudHNxAH4AP3hxAH4AYHNxAH4AVwBwc3EAfgBcdXEAfgA6AAAAAHNxAH4AVwBwc3EAfgBcdXEAfgA6AAAAAHNxAH4AVwBwc3EAfgBcdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBfdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBfc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB8dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB9c3EAfgBwdAADQW55c3EAfgB0c3EAfgB3dXEAfgB6AAAAAnNxAH4AfHQABXNjYWxhcQB+AIN1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAhwcm9qZWN0MXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT6ke2pJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA+L1VzZXJzL2NoZWxzZWEvSWRlYVByb2plY3RzL3Byb2plY3QxL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTqfPYgVkEKQQpjjCJ9u6sj0+CDgA==
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD2MFFXAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwr/VvmnQABHNlbGZzcQB+AAvQXdDvdAAHY29udGV4dHVxAH4ACQAAACdzcQB+AAthVBhFdAAGbm90aWZ5c3EAfgALhYvXhHQAC2dldENvaW5IYXNoc3EAfgALr7YvL3QAB1JlY2VpdmVzcQB+AAvDmK6PdAAKZ2V0UGF0dGVybnNxAH4AC4ZcOzJ0AAR3YWl0c3EAfgALxMQP3HQADSRhc0luc3RhbmNlT2ZzcQB+AAuOV4MedAAGZXF1YWxzc3EAfgAL3JG2pHQADGFzSW5zdGFuY2VPZnNxAH4AC0NfcHJ0AAxzeW5jaHJvbml6ZWRzcQB+AAv40uYHdAANJGlzSW5zdGFuY2VPZnNxAH4ACwKwqyV0AAdyZWNlaXZlc3EAfgAL5tRpNnQACnByZVJlc3RhcnRzcQB+AAu1pg+vdAANYXJvdW5kUmVjZWl2ZXNxAH4ACyhvtkV0AAtwb3N0UmVzdGFydHNxAH4AC6FAWTp0AAhwb3N0U3RvcHNxAH4AC8yziA10AAlub3RpZnlBbGxzcQB+AAsq3AOTdAARYXJvdW5kUG9zdFJlc3RhcnRzcQB+AAtMmgUFdAAMaXNJbnN0YW5jZU9mc3EAfgAL4IEHW3QAEGFyb3VuZFByZVJlc3RhcnRzcQB+AAspJI+bdAAOYXJvdW5kUG9zdFN0b3BzcQB+AAuiPOnSdAAGPGluaXQ+c3EAfgALnVL7LXQABnJlbW90ZXNxAH4AC2YQ2Gd0AAhwcmVTdGFydHNxAH4ACwflp950AAl1bmhhbmRsZWRzcQB+AAviReOkdAACPT1zcQB+AAvXWwzGdAAFY2xvbmVzcQB+AAvpHLyBdAAGc2VuZGVyc3EAfgALibwmhnQAB2NvdW50ZXJzcQB+AAsSfwiedAAIdG9TdHJpbmdzcQB+AAt1LgCldAACIT1zcQB+AAvt+gMadAAIZ2V0Q2xhc3NzcQB+AAvU1892dAAGV29ya2Vyc3EAfgALaFv2dnQAAm5lc3EAfgALNJ4idXQAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4AC9/DX5l0AAJlcXNxAH4ACzA3mDx0AAIjI3NxAH4AC1cRXG90AAhmaW5hbGl6ZXNxAH4AC0XWSvh0AAhoYXNoQ29kZXNxAH4AC+iw0Yt0AA5hcm91bmRQcmVTdGFydHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AA9wcm9qZWN0MS5Xb3JrZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AgQFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AaUwACWluaGVyaXRlZHEAfgBpTAAHcGFyZW50c3EAfgBpeHEAfgCIc3EAfgCBAXVxAH4AZAAAAABwc3EAfgCBAXVxAH4AZAAAAABwc3EAfgCBAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ah3QABUFjdG9yc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCHc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARha2thc3EAfgCgdAAFYWN0b3JzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AoXNxAH4AlHQABk9iamVjdHNxAH4AmHNxAH4Am3VxAH4AngAAAANzcQB+AKB0AARqYXZhc3EAfgCgdAAEbGFuZ3EAfgCnc3EAfgCUdAADQW55c3EAfgCYc3EAfgCbdXEAfgCeAAAAAnNxAH4AoHQABXNjYWxhcQB+AKdwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQACHByb2plY3Qxc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFPsz2jmHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AD4vVXNlcnMvY2hlbHNlYS9JZGVhUHJvamVjdHMvcHJvamVjdDEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFDyu+BRi9O92hhe8FHJZkq3YqiBH
 external apis:
 0 items
 source infos:
-3 items
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Master.scala -> 
+4 items
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Main.scala -> 
 AAAAAAAAAAA=
-/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Server.scala -> 
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/RemoteActor.scala -> 
+AAAAAAAAAAA=
+/Users/chelsea/IdeaProjects/project1/src/main/scala/project1/SendMessages.scala -> 
 AAAAAAAAAAA=
 /Users/chelsea/IdeaProjects/project1/src/main/scala/project1/Worker.scala -> 
 AAAAAAAAAAA=
 compilations:
-4 items
+7 items
 0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT6kbEqh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9jaGVsc2VhL0lkZWFQcm9qZWN0cy9wcm9qZWN0MS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT6kdEsR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9jaGVsc2VhL0lkZWFQcm9qZWN0cy9wcm9qZWN0MS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT6ke2pJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9jaGVsc2VhL0lkZWFQcm9qZWN0cy9wcm9qZWN0MS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT6kzRXZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9jaGVsc2VhL0lkZWFQcm9qZWN0cy9wcm9qZWN0MS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT7Mo1751cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9jaGVsc2VhL0lkZWFQcm9qZWN0cy9wcm9qZWN0MS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT7M4Mb51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9jaGVsc2VhL0lkZWFQcm9qZWN0cy9wcm9qZWN0MS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT7M9o5h1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9jaGVsc2VhL0lkZWFQcm9qZWN0cy9wcm9qZWN0MS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==

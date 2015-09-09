@@ -37,11 +37,11 @@ object Main {
   }
 
   def runAsClient(ipAddress: String) = {
-    val mapClient = new java.util.HashMap[String, Object]
-    mapClient.put("akka.actor.provider", "akka.remote.RemoteActorRefProvider")
-    mapClient.put("akka.remote.netty.tcp.hostname", ipAddress)
-    mapClient.put("akka.remote.netty.tcp.port", "0")
-    val akkaConfigClient = ConfigFactory.parseMap(mapClient)
+    val mapWorker = new java.util.HashMap[String, Object]
+    mapWorker.put("akka.actor.provider", "akka.remote.RemoteActorRefProvider")
+    mapWorker.put("akka.remote.netty.tcp.hostname", ipAddress)
+    mapWorker.put("akka.remote.netty.tcp.port", "0")
+    val akkaConfigClient = ConfigFactory.parseMap(mapWorker)
     implicit val system = ActorSystem("WorkerSystem", akkaConfigClient)
     val localActor = system.actorOf(Props[Worker], name = "LocalActor")  // the local actor
     localActor ! "START"                                                 // start the action

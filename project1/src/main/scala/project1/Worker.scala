@@ -5,6 +5,7 @@ import java.net.InetAddress
 import akka.actor.Actor
 import org.apache.commons.codec.binary.Base64
 import com.roundeights.hasher.Implicits._
+import scala.compat.Platform
 
 /**
  * Created by chelsea on 9/6/15.
@@ -17,6 +18,7 @@ class Worker extends Actor {
 
   def receive = {
     case Job(numOfZeros, start, end) => {
+      val startTime = Platform.currentTime
       var i = start
       while (i < end) {
         val coinHash = getCoinHash(i)
@@ -25,6 +27,9 @@ class Worker extends Actor {
         }
         i += 1
       }
+      val endTime = Platform.currentTime
+      val totalTime = endTime - startTime
+      println("Total Time: " + totalTime)
       context.system.shutdown()
     }
     case "START" => {

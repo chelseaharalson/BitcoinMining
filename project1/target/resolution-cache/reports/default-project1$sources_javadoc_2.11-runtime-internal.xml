@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150906131024"/>
+		date="20150909134949"/>
 	<dependencies>
 		<module organisation="com.roundeights" name="hasher_2.11">
 			<revision name="1.0.0" status="release" pubdate="20150906130626" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
@@ -31,10 +31,10 @@
 				<metadata-artifact status="no" details="" size="10380" time="0" location="/Users/chelsea/.ivy2/cache/commons-codec/commons-codec/ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
 				<caller organisation="default" name="project1$sources_javadoc_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="commons-codec" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="433991" time="1831" location="/Users/chelsea/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.10-javadoc.jar">
+					<artifact name="commons-codec" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="433991" time="0" location="/Users/chelsea/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.10-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-javadoc.jar"/>
 					</artifact>
-					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="301032" time="795" location="/Users/chelsea/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.10-sources.jar">
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="301032" time="0" location="/Users/chelsea/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.10-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar"/>
 					</artifact>
 					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="284184" time="0" location="/Users/chelsea/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar">
@@ -347,11 +347,11 @@
 				<metadata-artifact status="no" details="" size="2537" time="0" location="/Users/chelsea/.ivy2/cache/org.scala-stm/scala-stm_2.11/ivy-0.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.pom"/>
 				<caller organisation="default" name="project1$sources_javadoc_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scala-stm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116149" time="0" location="/Users/chelsea/.ivy2/cache/org.scala-stm/scala-stm_2.11/srcs/scala-stm_2.11-0.7-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-sources.jar"/>
-					</artifact>
 					<artifact name="scala-stm_2.11" type="jar" ext="jar" status="no" details="" size="630306" time="0" location="/Users/chelsea/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar"/>
+					</artifact>
+					<artifact name="scala-stm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116149" time="0" location="/Users/chelsea/.ivy2/cache/org.scala-stm/scala-stm_2.11/srcs/scala-stm_2.11-0.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-sources.jar"/>
 					</artifact>
 					<artifact name="scala-stm_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="929219" time="0" location="/Users/chelsea/.ivy2/cache/org.scala-stm/scala-stm_2.11/docs/scala-stm_2.11-0.7-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-javadoc.jar"/>
