@@ -26,29 +26,29 @@ object Server /*extends App*/ {
     println(InetAddress.getLocalHost().getHostAddress())
     if (isNumeric(args(0)))
       //println("Yes")
-      runAsServer
+      runAsServer(args(0).toLong,1,1000)
     else
       //println("No")
-      runAsClient
+      runAsClient(args(0))
   }
 
   def isNumeric(input: String): Boolean = input.forall(_.isDigit)
 
-  def runAsServer = {
+  def runAsServer(numOfZeros: Long, start: Long, end: Long) = {
     val mapServer = new java.util.HashMap[String, Object]
     mapServer.put("akka.actor.provider", "akka.remote.RemoteActorRefProvider")
     mapServer.put("akka.remote.netty.tcp.hostname", InetAddress.getLocalHost.getHostAddress)
     mapServer.put("akka.remote.netty.tcp.port", "5150")
     val akkaConfigServer = ConfigFactory.parseMap(mapServer)
     val system = ActorSystem("HelloRemoteSystem", akkaConfigServer)
-    val remoteActor = system.actorOf(Props (new RemoteActor(2,1,1000)), name = "RemoteActor")
+    val remoteActor = system.actorOf(Props (new RemoteActor(numOfZeros,start,end)), name = "RemoteActor")
     remoteActor ! "The RemoteActor is alive"
   }
 
-  def runAsClient = {
+  def runAsClient(ipAddress: String) = {
     val mapClient = new java.util.HashMap[String, Object]
     mapClient.put("akka.actor.provider", "akka.remote.RemoteActorRefProvider")
-    mapClient.put("akka.remote.netty.tcp.hostname", InetAddress.getLocalHost.getHostAddress)
+    mapClient.put("akka.remote.netty.tcp.hostname", ipAddress)
     mapClient.put("akka.remote.netty.tcp.port", "0")
     val akkaConfigClient = ConfigFactory.parseMap(mapClient)
     implicit val system = ActorSystem("LocalSystem", akkaConfigClient)
@@ -89,9 +89,9 @@ class LocalActor extends Actor {
           if (coinHash._2.startsWith(getPattern(numOfZeros))) {
             remote ! coinHash._1 + '\t' + coinHash._2
           }
-
           i += 1
         }
+        context.system.shutdown()
     }
     case "START" =>
     {
