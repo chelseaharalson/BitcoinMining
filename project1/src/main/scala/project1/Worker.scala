@@ -3,22 +3,20 @@ package project1
 import java.math.BigInteger
 import java.net.InetAddress
 import akka.actor.Actor
-import scala.language.postfixOps
 import org.apache.commons.codec.binary.Base64
 import com.roundeights.hasher.Implicits._
 
 /**
  * Created by chelsea on 9/6/15.
  */
-class LocalActor extends Actor {
+class Worker extends Actor {
   //println("Num of Zeros: " + numOfZeros)
   // create the remote actor
-  val remote = context.actorSelection("akka.tcp://HelloRemoteSystem@" + InetAddress.getLocalHost.getHostAddress + ":5150/user/RemoteActor")
+  val remote = context.actorSelection("akka.tcp://MasterSystem@" + InetAddress.getLocalHost.getHostAddress + ":8397/user/RemoteActor")
   var counter = 0
 
   def receive = {
-    case Job(numOfZeros, start, end) =>
-    {
+    case Job(numOfZeros, start, end) => {
       var i = start
       while (i < end) {
         val coinHash = getCoinHash(i)
@@ -29,24 +27,22 @@ class LocalActor extends Actor {
       }
       context.system.shutdown()
     }
-    case "START" =>
-    {
+    case "START" => {
       remote ! "Need work!"
     }
-    case msg: String =>
-      println(s"LocalActor received message: '$msg'")
+    case msg: String => {
+      println(s"Worker received message: '$msg'")
       if (counter < 5) {
         sender ! "Hello back to you"
         counter += 1
       }
+    }
   }
 
   def getCoinHash(idx: Long): (String, String) = {
-    val value = "chelseametcalf" + new String(Base64.encodeInteger(BigInteger.valueOf(idx)))
-    val hashed = value.sha256.hex
-    //println("Value: " + value)
-    //hashed
-    (value, hashed)
+    val inputString = "chelseametcalf" + new String(Base64.encodeInteger(BigInteger.valueOf(idx)))
+    val hash = inputString.sha256.hex
+    (inputString, hash)
   }
 
   def getPattern(numOfZeros: Long) = {
