@@ -1,4 +1,5 @@
 [0m[[0minfo[0m] [0mRunning project1.Main 10.0.0.3[0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/Users/chelsea/IdeaProjects/project1/target/scala-2.11/classes[0m
 [0m[[0mdebug[0m] [0m	/Users/chelsea/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
@@ -30,19 +31,6 @@
 [0m[[0mdebug[0m] [0m	/Users/chelsea/.ivy2/cache/org.slf4j/slf4j-simple/jars/slf4j-simple-1.6.4.jar[0m
 [0m[[0mdebug[0m] [0m	/Users/chelsea/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar[0m
 [0m[[0mdebug[0m] [0m	/Users/chelsea/.ivy2/cache/com.roundeights/hasher_2.11/jars/hasher_2.11-1.0.0.jar[0m
-[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
 [0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread New I/O worker #1 to terminate.[0m
-[0m[[0mdebug[0m] [0m	Thread WorkerSystem-6 exited.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread WorkerSystem-akka.actor.default-dispatcher-3 to terminate.[0m
-[0m[[0mdebug[0m] [0m	Thread WorkerSystem-akka.actor.default-dispatcher-3 exited.[0m
-[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
-[0m[[0mdebug[0m] [0mInterrupting thread ForkJoinPool-3-worker-7[0m
-[0m[[0mdebug[0m] [0m	Interrupted ForkJoinPool-3-worker-7[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Thread-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted Thread-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread ForkJoinPool-3-worker-5[0m
-[0m[[0mdebug[0m] [0m	Interrupted ForkJoinPool-3-worker-5[0m
-[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
-[0m[[0mdebug[0m] [0mExited with code 0[0m
+[0m[[0mdebug[0m] [0mWaiting for thread New I/O boss #3 to terminate.[0m
