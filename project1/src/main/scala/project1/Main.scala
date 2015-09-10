@@ -15,7 +15,7 @@ object Main {
     if (isNumeric(args(0))) {
       println("Server: ")
       println("Number of Zeroes Specified:  " + args(0))
-      runAsServer(args(0).toLong, 1, 1000)
+      runAsServer(args(0).toLong)
     }
     else {
       println("Worker: ")
@@ -25,14 +25,14 @@ object Main {
 
   def isNumeric(input: String): Boolean = input.forall(_.isDigit)
 
-  def runAsServer(numOfZeros: Long, start: Long, end: Long) = {
+  def runAsServer(numOfZeros: Long) = {
     val mapServer = new java.util.HashMap[String, Object]
     mapServer.put("akka.actor.provider", "akka.remote.RemoteActorRefProvider")
     mapServer.put("akka.remote.netty.tcp.hostname", InetAddress.getLocalHost.getHostAddress)
     mapServer.put("akka.remote.netty.tcp.port", "8397")
     val akkaConfigServer = ConfigFactory.parseMap(mapServer)
     val system = ActorSystem("MasterSystem", akkaConfigServer)
-    val remoteActor = system.actorOf(Props (new RemoteActor(numOfZeros,start,end)), name = "RemoteActor")
+    val remoteActor = system.actorOf(Props (new RemoteActor(numOfZeros)), name = "RemoteActor")
     remoteActor ! "The RemoteActor is alive"
   }
 

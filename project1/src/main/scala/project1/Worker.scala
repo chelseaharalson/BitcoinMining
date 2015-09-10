@@ -29,7 +29,8 @@ class Worker extends Actor {
       }
       val endTime = Platform.currentTime
       val totalTime = endTime - startTime
-      println("Total Time: " + totalTime)
+      //println("Total Time: " + totalTime + " us")
+      remote ! "Total Time: " + totalTime/1000 + " seconds"
       context.system.shutdown()
     }
     case "START" => {
