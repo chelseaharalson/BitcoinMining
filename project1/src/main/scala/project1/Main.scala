@@ -34,6 +34,12 @@ object Main {
     val system = ActorSystem("MasterSystem", akkaConfigServer)
     val remoteActor = system.actorOf(Props (new RemoteActor(numOfZeros)), name = "RemoteActor")
     remoteActor ! "The RemoteActor is alive"
+    remoteActor ! "I need work!"
+
+    /*val bs = new Boss()
+    val startEnd = bs.getStartEnd()
+    val dm = new DataMining()
+    dm.mine(numOfZeros, startEnd._1, startEnd._2)*/
   }
 
   def runAsClient(ipAddress: String) = {
