@@ -1,7 +1,6 @@
 package project1
 
 import java.net.InetAddress
-
 import akka.actor._
 
 /**

@@ -10,9 +10,8 @@ import com.typesafe.config.{ConfigFactory}
 object Main {
 
   def main(args: Array[String]) = {
-    //println("Hello, " + args(0))
     println("Local IP Address: " + InetAddress.getLocalHost().getHostAddress())
-    if (isNumeric(args(0))) {
+    if (isNumber(args(0))) {
       println("Server: ")
       println("Number of Zeroes Specified:  " + args(0))
       runAsServer(args(0).toLong)
@@ -23,7 +22,9 @@ object Main {
     }
   }
 
-  def isNumeric(input: String): Boolean = input.forall(_.isDigit)
+  def isNumber(inputString: String): Boolean = {
+    inputString.forall(_.isDigit)
+  }
 
   def runAsServer(numOfZeros: Long) = {
     val mapServer = new java.util.HashMap[String, Object]
@@ -35,11 +36,6 @@ object Main {
     val remoteActor = system.actorOf(Props (new RemoteActor(numOfZeros)), name = "RemoteActor")
     remoteActor ! "The RemoteActor is alive"
     remoteActor ! "I need work!"
-
-    /*val bs = new Boss()
-    val startEnd = bs.getStartEnd()
-    val dm = new DataMining()
-    dm.mine(numOfZeros, startEnd._1, startEnd._2)*/
   }
 
   def runAsClient(ipAddress: String) = {

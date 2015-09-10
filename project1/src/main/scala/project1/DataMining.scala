@@ -1,8 +1,6 @@
 package project1
 
 import java.math.BigInteger
-import java.net.InetAddress
-import akka.actor.Actor
 import org.apache.commons.codec.binary.Base64
 import com.roundeights.hasher.Implicits._
 import scala.compat.Platform
