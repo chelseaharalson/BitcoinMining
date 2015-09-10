@@ -14,34 +14,15 @@ class Worker extends Actor {
   //println("Num of Zeros: " + numOfZeros)
   // create the remote actor
   val remote = context.actorSelection("akka.tcp://MasterSystem@" + InetAddress.getLocalHost.getHostAddress + ":8397/user/RemoteActor")
-  var counter = 0
 
   def receive = {
     case Job(numOfZeros, start, end) => {
-      val startTime = Platform.currentTime
-      var i = start
-      while (i < end) {
-        val coinHash = getCoinHash(i)
-        if (coinHash._2.startsWith(getPattern(numOfZeros))) {
-          remote ! coinHash._1 + '\t' + coinHash._2
-        }
-        i += 1
-      }
-      val endTime = Platform.currentTime
-      val totalTime = endTime - startTime
-      //println("Total Time: " + totalTime + " us")
-      remote ! "Total Time: " + totalTime/1000 + " seconds"
+      val dm = new DataMining()
+      remote ! dm.mine(numOfZeros, start, end)
       context.system.shutdown()
     }
     case "START" => {
       remote ! "Need work!"
-    }
-    case msg: String => {
-      println(s"Worker received message: '$msg'")
-      if (counter < 5) {
-        sender ! "Hello back to you"
-        counter += 1
-      }
     }
   }
 
