@@ -39,19 +39,6 @@ class RemoteActor(numOfZeros: Long) extends Actor {
       println("Start Server: " + start)
       val dm = new DataMining()
       println(dm.mine(numOfZeros, start, end))
-      //remote ! "I need work!"
-      /*if (counter < 3) {
-        remote ! "I need work!"
-      }
-      else {
-        context.system.shutdown()
-      }*/
     }
   })
-
-  /*val runDataMine = new Thread(new Runnable {
-    def run() {
-      println("hello world")
-    }
-  })*/
 }

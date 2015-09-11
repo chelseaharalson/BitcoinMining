@@ -1,7 +1,5 @@
 package project1
 
-import java.math.BigInteger
-import org.apache.commons.codec.binary.Base64
 import com.roundeights.hasher.Implicits._
 import scala.compat.Platform
 
@@ -28,7 +26,7 @@ class DataMining {
   }
 
   def getCoinHash(idx: Long): (String, String) = {
-    val inputString = "chelseametcalf" + new String(Base64.encodeInteger(BigInteger.valueOf(idx)))
+    val inputString = "chelseametcalf" + Integer.toHexString(idx.toInt)
     val hash = inputString.sha256.hex
     (inputString, hash)
   }
