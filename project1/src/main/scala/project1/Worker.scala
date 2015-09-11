@@ -13,8 +13,8 @@ class Worker extends Actor {
   def receive = {
     case Job(numOfZeros, start, end) => {
       val dm = new DataMining()
-      remote ! "WORKER!!!!!! " + dm.mine(numOfZeros, start, end)
-      context.system.shutdown()
+      remote ! "WORKER!!!!!!! " + dm.mine(numOfZeros, start, end)
+      //context.system.shutdown()
     }
     case "START" => {
       remote ! "Need work!"

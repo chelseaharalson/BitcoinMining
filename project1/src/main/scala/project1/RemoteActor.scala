@@ -10,31 +10,48 @@ import akka.actor._
 class RemoteActor(numOfZeros: Long) extends Actor {
   var start: Long = 0
   var end: Long = 0
+  var counter: Integer = 0
+  val workSize: Integer = 1000000
   val remote = context.actorSelection("akka.tcp://MasterSystem@" + InetAddress.getLocalHost.getHostAddress + ":8397/user/RemoteActor")
 
   def receive = {
     case msg: String => {
       if (msg.equals("Need work!")) {
-        start = start + 10000
-        end = start + 10000
+        start = start + workSize
+        end = start + workSize
         println("Start Worker: " + start)
         sender ! Job(numOfZeros, start, end)
       }
       else if (msg.equals("I need work!")) {
-        start = start + 10000
-        end = start + 10000
-        println("Start Server: " + start)
-        val dm = new DataMining()
-        println(dm.mine(numOfZeros, start, end))
-        remote ! "I need work!"
+        runDataMine.start
       }
       else {
         println(s"RemoteActor received message '$msg'")
       }
     }
-    case Job(numOfZeros, start, end) => {
-      val dm = new DataMining()
-      sender ! dm.mine(numOfZeros, start, end)
-    }
   }
+
+  val runDataMine = new Thread(new Runnable {
+    def run() {
+      counter += 1
+      start = start + workSize
+      end = start + workSize
+      println("Start Server: " + start)
+      val dm = new DataMining()
+      println(dm.mine(numOfZeros, start, end))
+      //remote ! "I need work!"
+      /*if (counter < 3) {
+        remote ! "I need work!"
+      }
+      else {
+        context.system.shutdown()
+      }*/
+    }
+  })
+
+  /*val runDataMine = new Thread(new Runnable {
+    def run() {
+      println("hello world")
+    }
+  })*/
 }

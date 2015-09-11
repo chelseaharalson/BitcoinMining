@@ -12,17 +12,18 @@ class DataMining {
   def mine(numOfZeros: Long, start: Long, end: Long) = {
     val startTime = Platform.currentTime
     var output = ""
+    val pattern = getPattern(numOfZeros)
     var i = start
     while (i < end) {
       val coinHash = getCoinHash(i)
-      if (coinHash._2.startsWith(getPattern(numOfZeros))) {
+      if (coinHash._2.startsWith(pattern)) {
         output = output + coinHash._1 + '\t' + coinHash._2 + '\n'
       }
       i += 1
     }
     val endTime = Platform.currentTime
     val totalTime = endTime - startTime
-    output = output + "Total Time: " + totalTime/1000 + " seconds" + '\n'
+    output = output + "Total Time: " + totalTime + " ms" + '\n'
     output
   }
 
