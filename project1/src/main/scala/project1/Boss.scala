@@ -1,32 +1,32 @@
 package project1
 
-import java.net.InetAddress
 import akka.actor._
 
 /**
  * Created by chelsea on 9/6/15.
  */
 
-class RemoteActor(numOfZeros: Long) extends Actor {
+// The Boss acts like a server. It keeps track of all the problems and performs the job assignment.
+
+class Boss(numOfZeros: Long) extends Actor {
   var start: Long = 0
   var end: Long = 0
   var counter: Integer = 0
   val workSize: Integer = 1000000
-  val remote = context.actorSelection("akka.tcp://MasterSystem@" + InetAddress.getLocalHost.getHostAddress + ":8397/user/RemoteActor")
 
   def receive = {
-    case msg: String => {
-      if (msg.equals("Need work!")) {
+    case msgFromWorker: String => {
+      if (msgFromWorker.equals("Worker needs work!")) {
         start = start + workSize
         end = start + workSize
         println("Start Worker: " + start)
-        sender ! Job(numOfZeros, start, end)
+        sender ! DoWork(numOfZeros, start, end) // By using sender, one can refer to the actor that sent the message that the current actor last received
       }
-      else if (msg.equals("I need work!")) {
+      else if (msgFromWorker.equals("Server needs work!")) {
         runDataMine.start
       }
       else {
-        println(s"RemoteActor received message '$msg'")
+        println(s"Boss received message '$msgFromWorker'")
       }
     }
   }

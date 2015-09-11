@@ -22,6 +22,7 @@ object Main {
     }
   }
 
+  // Checks if parameter is a number
   def isNumber(inputString: String): Boolean = {
     inputString.forall(_.isDigit)
   }
@@ -32,10 +33,10 @@ object Main {
     mapServer.put("akka.remote.netty.tcp.hostname", InetAddress.getLocalHost.getHostAddress)
     mapServer.put("akka.remote.netty.tcp.port", "8397")
     val akkaConfigServer = ConfigFactory.parseMap(mapServer)
-    val system = ActorSystem("MasterSystem", akkaConfigServer)
-    val remoteActor = system.actorOf(Props (new RemoteActor(numOfZeros)), name = "RemoteActor")
-    remoteActor ! "The RemoteActor is alive"
-    remoteActor ! "I need work!"
+    val system = ActorSystem("BossSystem", akkaConfigServer)
+    val remoteActor = system.actorOf(Props (new Boss(numOfZeros)), name = "RemoteActor")
+    remoteActor ! "The Server is alive"
+    remoteActor ! "Server needs work!"
   }
 
   def runAsClient(ipAddress: String) = {
@@ -46,7 +47,7 @@ object Main {
     val akkaConfigClient = ConfigFactory.parseMap(mapWorker)
     implicit val system = ActorSystem("WorkerSystem", akkaConfigClient)
     val localActor = system.actorOf(Props[Worker], name = "LocalActor")  // the local actor
-    localActor ! "START"                                                 // start the action
+    localActor ! "START WORKER"                                          // start the action
   }
 
 }
