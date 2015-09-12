@@ -34,7 +34,7 @@ object Main {
     mapServer.put("akka.remote.netty.tcp.port", "8397")
     val akkaConfigServer = ConfigFactory.parseMap(mapServer)
     val system = ActorSystem("BossSystem", akkaConfigServer)
-    val remoteActor = system.actorOf(Props (new Boss(numOfZeros)), name = "RemoteActor")
+    val remoteActor = system.actorOf(Props (new Boss(numOfZeros)), name = "BossActor")
     remoteActor ! "The Server is alive"
     remoteActor ! "Server needs work!"
   }

@@ -1,27 +1,22 @@
 package project1
 
 import java.net.InetAddress
-import akka.actor.{ActorSystem, PoisonPill, Actor}
+import akka.actor.{Actor}
 
 /**
  * Created by chelsea on 9/6/15.
  */
 class Worker extends Actor {
   // create the remote actor
-  val remote = context.actorSelection("akka.tcp://BossSystem@" + InetAddress.getLocalHost.getHostAddress + ":8397/user/RemoteActor")
+  // needs to be same IP address as the Boss/server
+  val remote = context.actorSelection("akka.tcp://BossSystem@128.227.205.151:8397/user/BossActor")
 
   def receive = {
-    case DoWork(numOfZeros, start, end) => {
+    case DoWork(numOfZeros,start,end) => {
       val dm = new DataMining()
-      remote ! "WORKER!!!!!!! " + dm.mine(numOfZeros, start, end)
+      remote ! "WORKER!!!!!!! " + dm.mine(numOfZeros,start,end)
       remote ! CoinCount(dm.getCoinCount())
-      //self ! PoisonPill
-      //context.system.shutdown
-      //remote ! PoisonPill
-      //context stop self
-      //context.system.shutdown
-      //system.
-      //context.stop(self)
+      context.system.shutdown
     }
     case "START WORKER" => {
       remote ! "Worker needs work!"

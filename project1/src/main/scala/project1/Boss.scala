@@ -1,5 +1,7 @@
 package project1
 
+import java.net.InetAddress
+
 import akka.actor._
 
 /**
@@ -11,34 +13,33 @@ import akka.actor._
 class Boss(numOfZeros: Long) extends Actor {
   var start: Long = 0
   var end: Long = 0
-  //var counter: Integer = 0
-  val workSize: Integer = 100000
+  val workSize: Integer = 1000000
   var totalAmtOfCoins: Integer = 0
 
   def receive = {
-    case msgFromWorker: String => {
-      if (msgFromWorker.equals("Worker needs work!")) {
+    case msgFromServer: String => {
+      if (msgFromServer.equals("Worker needs work!")) {
         start = start + workSize
         end = start + workSize
         println("Start Worker: " + start)
-        sender ! DoWork(numOfZeros, start, end) // By using sender, one can refer to the actor that sent the message that the current actor last received
+        sender ! DoWork(numOfZeros,start,end) // By using sender, one can refer to the actor that sent the message that the current actor last received
       }
-      else if (msgFromWorker.equals("Server needs work!")) {
+      else if (msgFromServer.equals("Server needs work!")) {
         runDataMine.start
       }
       else {
-        println(s"Boss received message '$msgFromWorker'")
+        println(s"Boss received message '$msgFromServer'")
       }
     }
     case CoinCount(count) => {
       totalAmtOfCoins = totalAmtOfCoins + count
       println("Total coin count!!!: " + totalAmtOfCoins)
+      //context.system.shutdown
     }
   }
 
   val runDataMine = new Thread(new Runnable {
     def run() {
-      //counter += 1
       start = start + workSize
       end = start + workSize
       println("Start Server: " + start)

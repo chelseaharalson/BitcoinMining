@@ -13,7 +13,7 @@ import scala.compat.Platform
 class DataMining {
   var coinCount: Integer = 0
 
-  def mine(numOfZeros: Long, start: Long, end: Long) = {
+  def mine(numOfZeros: Long,start: Long,end: Long) = {
     val startTime = Platform.currentTime
     var output = ""
     val pattern = getPattern(numOfZeros)

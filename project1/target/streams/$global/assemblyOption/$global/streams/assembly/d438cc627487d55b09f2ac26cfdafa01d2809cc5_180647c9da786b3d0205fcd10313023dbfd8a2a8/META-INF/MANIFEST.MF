@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Vendor: com.roundeights
-Implementation-Title: Hasher
-Implementation-Version: 1.0.0
-Implementation-Vendor-Id: com.roundeights
-Specification-Vendor: com.roundeights
-Specification-Title: Hasher
-Specification-Version: 1.0.0
-
