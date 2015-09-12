@@ -1,3 +1,9 @@
+import AssemblyKeys._
+
+assemblySettings
+
+jarName in assembly := "project1.jar"
+
 val akkaVersion = "2.3.11"
 
 name := "project1"

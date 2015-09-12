@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1431096530227
+Bundle-ManifestVersion: 2
+Bundle-Name: com.typesafe.akka.agent
+Bundle-SymbolicName: com.typesafe.akka.agent
+Bundle-Version: 2.3.11
+Created-By: 1.6.0_43 (Sun Microsystems Inc.)
+Export-Package: akka.agent;uses:="akka.util,scala,scala.concurrent,scala
+ .concurrent.stm,scala.reflect,scala.runtime";version="2.3.11"
+Import-Package: akka.util;version="[2.3,2.4)",scala;version="[2.11,2.12)
+ ",scala.concurrent;version="[2.11,2.12)",scala.concurrent.stm;version="
+ [2.11,2.12)",scala.reflect;version="[2.11,2.12)",scala.runtime;version=
+ "[2.11,2.12)"
+Include-Resource: D:\temp\akka-release\akka\akka-agent\src\main\resource
+ s,D:\temp\akka-release\akka\akka-agent\target\resource_managed\main
+Private-Package: reference.conf
+Tool: Bnd-2.1.0.20130426-122213

@@ -5,3 +5,4 @@ package project1
  */
 
 case class DoWork(numOfZeros: Long, start: Long, end: Long)
+case class CoinCount(count: Integer)

@@ -1,7 +1,7 @@
 package project1
 
 import java.net.InetAddress
-import akka.actor.Actor
+import akka.actor.{ActorSystem, PoisonPill, Actor}
 
 /**
  * Created by chelsea on 9/6/15.
@@ -14,7 +14,14 @@ class Worker extends Actor {
     case DoWork(numOfZeros, start, end) => {
       val dm = new DataMining()
       remote ! "WORKER!!!!!!! " + dm.mine(numOfZeros, start, end)
+      remote ! CoinCount(dm.getCoinCount())
+      //self ! PoisonPill
       //context.system.shutdown
+      //remote ! PoisonPill
+      //context stop self
+      //context.system.shutdown
+      //system.
+      //context.stop(self)
     }
     case "START WORKER" => {
       remote ! "Worker needs work!"

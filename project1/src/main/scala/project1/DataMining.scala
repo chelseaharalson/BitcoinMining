@@ -11,6 +11,7 @@ import scala.compat.Platform
 // Performs the data mining operations such as generating the coin hash and getting the prefix pattern
 
 class DataMining {
+  var coinCount: Integer = 0
 
   def mine(numOfZeros: Long, start: Long, end: Long) = {
     val startTime = Platform.currentTime
@@ -21,12 +22,13 @@ class DataMining {
       val coinHash = getCoinHash(i)
       if (coinHash._2.startsWith(pattern)) {
         output = output + coinHash._1 + '\t' + coinHash._2 + '\n'
+        coinCount += 1
       }
       i += 1
     }
     val endTime = Platform.currentTime
     val totalTime = endTime - startTime
-    output = output + "Total time to mine: " + totalTime + " ms" + '\n'
+    output = output + "Total time to mine: " + totalTime + " ms      Coin Count: " + coinCount + '\n'
     output
   }
 
@@ -44,5 +46,9 @@ class DataMining {
       s ++= "0"
     }
     s
+  }
+
+  def getCoinCount() = {
+    coinCount
   }
 }
