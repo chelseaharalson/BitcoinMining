@@ -17,11 +17,15 @@ As specified in the directions to include build.sbt, one can also run the progra
 sbt "project project1" "run 4"
 sbt "project project1" "run 128.227.205.151"
 
+The source code is in: ChelseaMetcalf_COP5615_Project1/project1/src/main/scala/project1
+
 In the code, the variables workSize and cycles in Boss.scala are meant to be changed. The cycles variable represents how many actors are spawned. I changed these two things when testing. The version of the project that I am turning in now has a work size default at 1,000,000 and cycles at 8.
 
 I closed the workers and boss once they were all done mining. But, I could easily have left the boss open to accept more requests from workers by commenting out the context.system.shutdown line of code.
 
 Also, I connected on port 8397 by default, but that could be adjusted to whatever port the user wants to connect on.
+
+For generating the hashes, I used the Hasher library, which is a small Scala library for generating hashes. (https://github.com/Nycto/Hasher) I also converted the numbers to hex.
 
 ----------------------------------------------------------------------------------------
 
