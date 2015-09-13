@@ -1,0 +1,35 @@
+Local IP Address: 128.227.205.151
+Boss: 
+Number of Zeros Specified:  5
+[INFO] [09/13/2015 13:27:31.521] [main] [Remoting] Starting remoting
+[INFO] [09/13/2015 13:27:31.603] [main] [Remoting] Remoting started; listening on addresses :[akka.tcp://BossSystem@128.227.205.151:8397]
+[INFO] [09/13/2015 13:27:31.604] [main] [Remoting] Remoting now listens on addresses: [akka.tcp://BossSystem@128.227.205.151:8397]
+The BOSS is alive
+chelseametcalf7bfb61	00000864ad148f22d333e263ee7507bd5126fc3900bd3cbb760a7bf11356209f
+chelseametcalf7dd56a	000007b1ba52ab5ca256cdf031bf653dfd92bf5b2065eb13b462dd5c5759a23d
+Total time to mine: 40522 ms      Coin Count: 2
+
+chelseametcalf32dceb	000003923b5a4a3dd6744365abda95244a1a952bf2f4fa25a331c01ff061e28b
+Total time to mine: 40601 ms      Coin Count: 1
+
+chelseametcalf786bbc	00000ee0228f3a422eb30d8845864b3919721e9b4a68972ac26dc8d91108234e
+Total time to mine: 40653 ms      Coin Count: 1
+
+Total time to mine: 40674 ms      Coin Count: 0
+
+chelseametcalf1dbea3	00000fb3f0c94074caf1b970653a74c04bb6ef46fa6353414fe771eb406d2600
+Total time to mine: 40735 ms      Coin Count: 1
+
+Total time to mine: 40743 ms      Coin Count: 0
+
+Total time to mine: 40752 ms      Coin Count: 0
+
+chelseametcalf1f7458	00000e7bdd3c672f5c0cd551335622d7eb322633850475a59237e654b6987c04
+chelseametcalf280a73	000001135b0865030a6f4be2bd0593c7c3c59ac9721f96dad915886dce5a5b74
+chelseametcalf29ad98	0000036c05e323d84872447a94e3d9f2f1156813a3673f9ac33bf41e374b687a
+chelseametcalf2cec1a	00000cf05f24cf1ff0bb7b4d74a46e84373b69c8963fbc7f733879bf6c1752ce
+Total time to mine: 40766 ms      Coin Count: 4
+
+TOTAL COIN COUNT: 9
+
+318.344u 0.461s 0:41.38 770.4%	0+0k 0+232io 0pf+0w
