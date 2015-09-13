@@ -17,7 +17,11 @@ As specified in the directions to include build.sbt, one can also run the progra
 sbt "project project1" "run 4"
 sbt "project project1" "run 128.227.205.151"
 
-In the code, the variables workSize and cycles in Boss.scala are meant to be changed. The cycles variable represents how many actors are spawned. I changed these two things when testing.
+In the code, the variables workSize and cycles in Boss.scala are meant to be changed. The cycles variable represents how many actors are spawned. I changed these two things when testing. The version of the project that I am turning in now has a work size default at 1,000,000 and cycles at 8.
+
+I closed the workers and boss once they were all done mining. But, I could easily have left the boss open to accept more requests from workers by commenting out the context.system.shutdown line of code.
+
+Also, I connected on port 8397 by default, but that could be adjusted to whatever port the user wants to connect on.
 
 ----------------------------------------------------------------------------------------
 
@@ -66,6 +70,9 @@ Performance of "time java -jar project1.jar 4" :
 
 As you can see, the ratio of CPU time to real time is 7.709, which is close to 8.
 
+**I also tried enlisting 8 machines (Coins_4_MoreWorkers.txt), and 1010 coins were found.
+311.742u 0.750s 0:55.71 560.9%	0+0k 34504+568io 1pf+0w
+
 ----------------------------------------------------------------------------------------
 
 
@@ -81,6 +88,9 @@ Performance of "time java -jar project1.jar 5" :
 318.344u 0.461s 0:41.38 770.4%	0+0k 0+232io 0pf+0w
 
 As you can see, the ratio of CPU time to real time is 7.704, which is close to 8.
+
+**I also tried enlisting 8 machines (Coins_5_MoreWorkers.txt), and 59 coins were found.
+304.598u 0.757s 0:56.60 539.4%	0+0k 0+312io 0pf+0w
 
 ----------------------------------------------------------------------------------------
 
@@ -103,7 +113,7 @@ ssh lin312-02
 
 The max I could ssh into was from machines 02 to 09. All of these machines have 8 cores. I ran my program on all 8 to mine the coins.
 
-In these files, you will find the results of running "time java -jar project1.jar 4" and "time java -jar project1.jar 5" on 8 machines with a work size unit of 1,000,000.
+In these files (stated below), you will find the results of running "time java -jar project1.jar 4" and "time java -jar project1.jar 5" on 8 machines with a work size unit of 1,000,000.
 
 Work size unit: 1,000,000
 Cycles/Actors: 8
