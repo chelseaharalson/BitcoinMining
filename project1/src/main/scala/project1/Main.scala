@@ -42,11 +42,13 @@ object Main {
   def runAsClient(ipAddress: String) = {
     val mapWorker = new java.util.HashMap[String, Object]
     mapWorker.put("akka.actor.provider", "akka.remote.RemoteActorRefProvider")
-    mapWorker.put("akka.remote.netty.tcp.hostname", ipAddress)
+    //println("Passed in IP Address: " + ipAddress)
+    //println("Local host IP Address: " + InetAddress.getLocalHost.getHostAddress)
+    mapWorker.put("akka.remote.netty.tcp.hostname", InetAddress.getLocalHost.getHostAddress)
     mapWorker.put("akka.remote.netty.tcp.port", "0")
     val akkaConfigClient = ConfigFactory.parseMap(mapWorker)
     implicit val system = ActorSystem("WorkerSystem", akkaConfigClient)
-    val workerActor = system.actorOf(Props[Worker], name = "WorkerActor")   // the local actor
+    val workerActor = system.actorOf(Props (new Worker(ipAddress)), name = "WorkerActor")   // the local actor
     workerActor ! "START WORKER"                                          // start the action
   }
 

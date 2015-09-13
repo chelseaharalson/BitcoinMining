@@ -13,8 +13,8 @@ class MineCoinsWorker() extends Actor {
       //println("It works!! Start: " + start)
       val dm = new DataMining()
       sender ! dm.mine(numOfZeros,start,end)
+      //sender ! "WORKER: " + start + "   " + end
       sender ! CoinCount(dm.getCoinCount())
-      //println("End")
     }
     /*case msg: String => {
       println("It works!!")
@@ -22,10 +22,10 @@ class MineCoinsWorker() extends Actor {
   }
 }
 
-class Worker extends Actor {
+class Worker(ipAddress: String) extends Actor {
   // create the remote actor
   // needs to be same IP address as the Boss/server
-  val remote = context.actorSelection("akka.tcp://BossSystem@10.0.0.4:8397/user/BossActor")
+  val remote = context.actorSelection("akka.tcp://BossSystem@" + ipAddress + ":8397/user/BossActor")
   var startWork: Long = 0
   var endWork: Long = 0
   var lCycles: Long = 0
@@ -35,6 +35,7 @@ class Worker extends Actor {
     case DoWorkWorker(numOfZeros,start,cycles,workSize) => {
       lCycles = cycles
       var i = 0
+      startWork = start
       while (i < cycles) {
         startWork = startWork + workSize
         endWork = startWork + workSize

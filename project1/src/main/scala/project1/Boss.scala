@@ -14,6 +14,7 @@ class MineCoins() extends Actor {
     case DoWorkBoss(numOfZeros,start,end) => {
       val dm = new DataMining()
       sender ! dm.mine(numOfZeros,start,end)
+      //sender ! "BOSS: " + start + "   " + end
       sender ! CoinCount(dm.getCoinCount())
     }
   }
@@ -22,12 +23,14 @@ class MineCoins() extends Actor {
 class Boss(numOfZeros: Long) extends Actor {
   var start: Long = 0
   var end: Long = 0
-  val workSize: Long = 10000
+  val workSize: Long = 100000
   // For testing:
-  //val workSize: Integer = 1000000
+  //val workSize: Long = 10000
   var totalAmtOfCoins: Integer = 0
+  //val cycles: Long = 4
+  // For testing:
   val cycles: Long = 10
-  var dataMiningDone: Integer = 0
+  var cycleCount: Long = 0
 
   def receive = {
     case msgFromServer: String => {
@@ -36,8 +39,10 @@ class Boss(numOfZeros: Long) extends Actor {
         sender ! DoWorkWorker(numOfZeros,end,cycles,workSize) // By using sender, one can refer to the actor that sent the message that the current actor last received
         start = start + (cycles * workSize)
         end = start + workSize
+        cycleCount = cycleCount + cycles
       }
       else if (msgFromServer.equals("Server needs work!")) {
+        cycleCount = cycles
         var i = 0
         while (i < cycles) {
           start = start + workSize
@@ -51,11 +56,11 @@ class Boss(numOfZeros: Long) extends Actor {
       }
     }
     case CoinCount(count) => {
-      dataMiningDone += 1
+      cycleCount -= 1
       totalAmtOfCoins = totalAmtOfCoins + count
-      if (dataMiningDone == cycles) {
+      if (cycleCount == 0) {
         println("Total coin count!!!: " + totalAmtOfCoins)
-        //context.system.shutdown
+        context.system.shutdown
       }
     }
   }
