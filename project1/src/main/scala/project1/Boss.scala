@@ -27,6 +27,7 @@ class Boss(numOfZeros: Long) extends Actor {
   val workSize: Long = 1000000
   //val workSize: Long = 10000000
   //val workSize: Long = 1000000000
+  //val workSize: Long = 5000000
   var totalAmtOfCoins: Integer = 0
   // -------------------- For testing (can change cycles):
   //val cycles: Long = 4
