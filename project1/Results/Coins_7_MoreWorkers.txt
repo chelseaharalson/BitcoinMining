@@ -1,0 +1,277 @@
+Local IP Address: 128.227.205.151
+Boss: 
+Number of Zeros Specified:  7
+[INFO] [09/13/2015 16:39:23.698] [main] [Remoting] Starting remoting
+[INFO] [09/13/2015 16:39:23.777] [main] [Remoting] Remoting started; listening on addresses :[akka.tcp://BossSystem@128.227.205.151:8397]
+[INFO] [09/13/2015 16:39:23.778] [main] [Remoting] Remoting now listens on addresses: [akka.tcp://BossSystem@128.227.205.151:8397]
+The BOSS is alive
+Start Worker: 160000000 to 170000000
+Start Worker: 320000000 to 330000000
+Start Worker: 480000000 to 490000000
+Start Worker: 640000000 to 650000000
+Start Worker: 800000000 to 810000000
+Start Worker: 960000000 to 970000000
+Start Worker: 1120000000 to 1130000000
+Total time to mine: 731861 ms      Coin Count: 0
+
+Total time to mine: 733247 ms      Coin Count: 0
+
+Total time to mine: 739964 ms      Coin Count: 0
+
+Total time to mine: 741264 ms      Coin Count: 0
+
+Total time to mine: 741289 ms      Coin Count: 0
+
+Total time to mine: 741503 ms      Coin Count: 0
+
+Total time to mine: 741986 ms      Coin Count: 0
+
+Total time to mine: 742653 ms      Coin Count: 0
+
+Total time to mine: 742805 ms      Coin Count: 0
+
+Total time to mine: 742968 ms      Coin Count: 0
+
+Total time to mine: 743142 ms      Coin Count: 0
+
+Total time to mine: 743220 ms      Coin Count: 0
+
+Total time to mine: 737340 ms      Coin Count: 0
+
+Total time to mine: 743794 ms      Coin Count: 0
+
+Total time to mine: 744669 ms      Coin Count: 0
+
+Total time to mine: 738761 ms      Coin Count: 0
+
+Total time to mine: 745109 ms      Coin Count: 0
+
+Total time to mine: 738836 ms      Coin Count: 0
+
+Total time to mine: 738906 ms      Coin Count: 0
+
+Total time to mine: 745257 ms      Coin Count: 0
+
+Total time to mine: 738972 ms      Coin Count: 0
+
+Total time to mine: 739258 ms      Coin Count: 0
+
+Total time to mine: 739305 ms      Coin Count: 0
+
+Total time to mine: 739521 ms      Coin Count: 0
+
+Total time to mine: 739586 ms      Coin Count: 0
+
+Total time to mine: 739587 ms      Coin Count: 0
+
+Total time to mine: 746090 ms      Coin Count: 0
+
+Total time to mine: 739865 ms      Coin Count: 0
+
+Total time to mine: 740386 ms      Coin Count: 0
+
+Total time to mine: 746728 ms      Coin Count: 0
+
+Total time to mine: 740441 ms      Coin Count: 0
+
+Total time to mine: 741935 ms      Coin Count: 0
+
+Total time to mine: 784294 ms      Coin Count: 0
+
+Total time to mine: 786157 ms      Coin Count: 0
+
+Total time to mine: 787190 ms      Coin Count: 0
+
+Total time to mine: 783438 ms      Coin Count: 0
+
+Total time to mine: 788073 ms      Coin Count: 0
+
+Total time to mine: 788119 ms      Coin Count: 0
+
+Total time to mine: 784091 ms      Coin Count: 0
+
+Total time to mine: 784759 ms      Coin Count: 0
+
+Total time to mine: 778811 ms      Coin Count: 0
+
+Total time to mine: 789227 ms      Coin Count: 0
+
+Total time to mine: 789299 ms      Coin Count: 0
+
+Total time to mine: 789345 ms      Coin Count: 0
+
+Total time to mine: 789655 ms      Coin Count: 0
+
+Total time to mine: 789783 ms      Coin Count: 0
+
+Total time to mine: 789987 ms      Coin Count: 0
+
+Total time to mine: 785994 ms      Coin Count: 0
+
+Total time to mine: 790315 ms      Coin Count: 0
+
+Total time to mine: 780275 ms      Coin Count: 0
+
+Total time to mine: 790759 ms      Coin Count: 0
+
+Total time to mine: 780777 ms      Coin Count: 0
+
+chelseametcalf5d416e4	00000001f6e834296093ce424f45749f5eac5d51da623886b7ff22f3c81b06d7
+Total time to mine: 791378 ms      Coin Count: 1
+
+chelseametcalf3b7f9686	000000066089a5409b1105ac2578f20236a1f0bc856d641cc16b2c1de955245f
+Total time to mine: 781432 ms      Coin Count: 1
+
+Total time to mine: 791768 ms      Coin Count: 0
+
+Total time to mine: 791890 ms      Coin Count: 0
+
+Total time to mine: 788375 ms      Coin Count: 0
+
+Total time to mine: 788582 ms      Coin Count: 0
+
+Total time to mine: 788923 ms      Coin Count: 0
+
+Total time to mine: 788997 ms      Coin Count: 0
+
+Total time to mine: 789075 ms      Coin Count: 0
+
+Total time to mine: 789177 ms      Coin Count: 0
+
+Total time to mine: 789400 ms      Coin Count: 0
+
+Total time to mine: 789636 ms      Coin Count: 0
+
+Total time to mine: 790221 ms      Coin Count: 0
+
+Total time to mine: 784152 ms      Coin Count: 0
+
+Total time to mine: 784226 ms      Coin Count: 0
+
+Total time to mine: 790422 ms      Coin Count: 0
+
+Total time to mine: 784870 ms      Coin Count: 0
+
+Total time to mine: 791093 ms      Coin Count: 0
+
+Total time to mine: 785046 ms      Coin Count: 0
+
+Total time to mine: 791345 ms      Coin Count: 0
+
+Total time to mine: 785290 ms      Coin Count: 0
+
+Total time to mine: 788647 ms      Coin Count: 0
+
+chelseametcalf3aeede2d	00000008d7dbfad04c53060eb6d62ff61a4c6f2476c5696da4f7cceca6ebfc01
+Total time to mine: 785920 ms      Coin Count: 1
+
+Total time to mine: 793596 ms      Coin Count: 0
+
+Total time to mine: 787632 ms      Coin Count: 0
+
+Total time to mine: 786550 ms      Coin Count: 0
+
+Total time to mine: 789619 ms      Coin Count: 0
+
+Total time to mine: 786620 ms      Coin Count: 0
+
+Total time to mine: 786772 ms      Coin Count: 0
+
+Total time to mine: 794470 ms      Coin Count: 0
+
+Total time to mine: 787004 ms      Coin Count: 0
+
+Total time to mine: 787214 ms      Coin Count: 0
+
+Total time to mine: 794835 ms      Coin Count: 0
+
+Total time to mine: 790404 ms      Coin Count: 0
+
+Total time to mine: 788865 ms      Coin Count: 0
+
+Total time to mine: 795246 ms      Coin Count: 0
+
+Total time to mine: 791106 ms      Coin Count: 0
+
+Total time to mine: 788088 ms      Coin Count: 0
+
+Total time to mine: 796027 ms      Coin Count: 0
+
+Total time to mine: 796110 ms      Coin Count: 0
+
+Total time to mine: 796187 ms      Coin Count: 0
+
+Total time to mine: 796721 ms      Coin Count: 0
+
+Total time to mine: 792276 ms      Coin Count: 0
+
+Total time to mine: 796954 ms      Coin Count: 0
+
+Total time to mine: 790970 ms      Coin Count: 0
+
+Total time to mine: 791036 ms      Coin Count: 0
+
+Total time to mine: 797265 ms      Coin Count: 0
+
+Total time to mine: 797397 ms      Coin Count: 0
+
+Total time to mine: 791303 ms      Coin Count: 0
+
+Total time to mine: 797527 ms      Coin Count: 0
+
+Total time to mine: 797700 ms      Coin Count: 0
+
+Total time to mine: 791708 ms      Coin Count: 0
+
+chelseametcalfddd5f5f	0000000cb0c0d837733d054cbe8073d0f05304babe5b5ff11089d2426dc5e690
+Total time to mine: 797833 ms      Coin Count: 1
+
+Total time to mine: 798347 ms      Coin Count: 0
+
+Total time to mine: 792306 ms      Coin Count: 0
+
+Total time to mine: 792489 ms      Coin Count: 0
+
+Total time to mine: 792529 ms      Coin Count: 0
+
+Total time to mine: 792599 ms      Coin Count: 0
+
+Total time to mine: 792599 ms      Coin Count: 0
+
+Total time to mine: 794244 ms      Coin Count: 0
+
+Total time to mine: 794373 ms      Coin Count: 0
+
+Total time to mine: 792856 ms      Coin Count: 0
+
+Total time to mine: 799048 ms      Coin Count: 0
+
+Total time to mine: 793015 ms      Coin Count: 0
+
+Total time to mine: 794799 ms      Coin Count: 0
+
+Total time to mine: 795099 ms      Coin Count: 0
+
+Total time to mine: 793910 ms      Coin Count: 0
+
+Total time to mine: 795483 ms      Coin Count: 0
+
+Total time to mine: 795667 ms      Coin Count: 0
+
+Total time to mine: 794147 ms      Coin Count: 0
+
+Total time to mine: 794203 ms      Coin Count: 0
+
+Total time to mine: 795965 ms      Coin Count: 0
+
+Total time to mine: 796391 ms      Coin Count: 0
+
+Total time to mine: 796443 ms      Coin Count: 0
+
+Total time to mine: 796808 ms      Coin Count: 0
+
+Total time to mine: 796922 ms      Coin Count: 0
+
+TOTAL COIN COUNT: 4
+
+6183.315u 4.092s 13:24.83 768.7%	0+0k 34504+1256io 1pf+0w

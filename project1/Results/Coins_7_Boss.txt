@@ -1,0 +1,43 @@
+Local IP Address: 128.227.205.151
+Boss: 
+Number of Zeros Specified:  7
+[INFO] [09/13/2015 15:16:33.777] [main] [Remoting] Starting remoting
+[INFO] [09/13/2015 15:16:33.860] [main] [Remoting] Remoting started; listening on addresses :[akka.tcp://BossSystem@128.227.205.151:8397]
+[INFO] [09/13/2015 15:16:33.861] [main] [Remoting] Remoting now listens on addresses: [akka.tcp://BossSystem@128.227.205.151:8397]
+The BOSS is alive
+Total time to mine: 768479 ms      Coin Count: 0
+
+Total time to mine: 769428 ms      Coin Count: 0
+
+chelseametcalf5d416e4	00000001f6e834296093ce424f45749f5eac5d51da623886b7ff22f3c81b06d7
+Total time to mine: 770311 ms      Coin Count: 1
+
+Total time to mine: 770664 ms      Coin Count: 0
+
+Total time to mine: 771044 ms      Coin Count: 0
+
+Total time to mine: 771153 ms      Coin Count: 0
+
+Total time to mine: 771291 ms      Coin Count: 0
+
+Total time to mine: 771902 ms      Coin Count: 0
+
+Total time to mine: 772278 ms      Coin Count: 0
+
+Total time to mine: 772796 ms      Coin Count: 0
+
+Total time to mine: 772878 ms      Coin Count: 0
+
+Total time to mine: 773061 ms      Coin Count: 0
+
+Total time to mine: 773119 ms      Coin Count: 0
+
+Total time to mine: 773147 ms      Coin Count: 0
+
+Total time to mine: 773528 ms      Coin Count: 0
+
+Total time to mine: 773627 ms      Coin Count: 0
+
+TOTAL COIN COUNT: 1
+[
+6033.969u 4.173s 12:54.17 779.9%	0+0k 0+1224io 0pf+0w

@@ -1,9 +1,9 @@
 Local IP Address: 128.227.205.151
 Boss: 
 Number of Zeros Specified:  5
-[INFO] [09/13/2015 14:07:52.755] [main] [Remoting] Starting remoting
-[INFO] [09/13/2015 14:07:52.837] [main] [Remoting] Remoting started; listening on addresses :[akka.tcp://BossSystem@128.227.205.151:8397]
-[INFO] [09/13/2015 14:07:52.838] [main] [Remoting] Remoting now listens on addresses: [akka.tcp://BossSystem@128.227.205.151:8397]
+[INFO] [09/13/2015 16:34:36.425] [main] [Remoting] Starting remoting
+[INFO] [09/13/2015 16:34:36.506] [main] [Remoting] Remoting started; listening on addresses :[akka.tcp://BossSystem@128.227.205.151:8397]
+[INFO] [09/13/2015 16:34:36.507] [main] [Remoting] Remoting now listens on addresses: [akka.tcp://BossSystem@128.227.205.151:8397]
 The BOSS is alive
 Start Worker: 8000000 to 9000000
 Start Worker: 16000000 to 17000000
@@ -12,213 +12,193 @@ Start Worker: 32000000 to 33000000
 Start Worker: 40000000 to 41000000
 Start Worker: 48000000 to 49000000
 Start Worker: 56000000 to 57000000
-Start Worker: 64000000 to 65000000
-chelseametcalf10c85a2	00000440b7f804b4ea38facbcc02820f7184336a0bb7ded4086868bc93cedce5
-Total time to mine: 40871 ms      Coin Count: 1
-
-chelseametcalfac9620	00000040dc02f4874bb3c1bf11d1ace47d3e9fc7bffc566ce8a6b8331974c66e
-Total time to mine: 41013 ms      Coin Count: 1
-
-chelseametcalfbadf80	000003d78afc3e0ae8fabfc781d4832acae315348c27d3ae2c0816ea7cdcee70
-Total time to mine: 41062 ms      Coin Count: 1
-
-chelseametcalfddcd6b	00000977d11d056081281aa87197dec579713836057f3a5dae4a56bdf4102308
-Total time to mine: 41061 ms      Coin Count: 1
-
-chelseametcalff5be2a	00000556448b59093fd338fc9e0a6df2f84b6740864aa29dc2418e586b4d4a3d
-chelseametcalff9bfbd	00000aaccbc58a6ce3962506bd03ec8c957278b66afd62128e83fde210188708
-Total time to mine: 41092 ms      Coin Count: 2
-
-chelseametcalfa039dc	0000020d55b2a6ea7ef8606444a92962684d5582e754bf62d7c28654085110df
-Total time to mine: 41118 ms      Coin Count: 1
-
-chelseametcalfe66f80	00000d565c98561e3becf3ad7e6224b95a59c688ffe9af51108fff70d1f19454
-Total time to mine: 41157 ms      Coin Count: 1
-
-chelseametcalfc9263c	00000a10b7e380eeb70646e72a98e2cc9687475e807f1bda5bda2f9e88108baf
-Total time to mine: 41164 ms      Coin Count: 1
-
-chelseametcalf167c1cb	000008acaba8ad430eb7ab2533ee8e7069c7b0e6471e7069ee8c15b9bc5c92c5
-Total time to mine: 39818 ms      Coin Count: 1
-
-chelseametcalf15516c3	000009e5e0fad125475bc880ed2c5884ebc775ad4a3ac196ab77d9a309353d81
-Total time to mine: 39896 ms      Coin Count: 1
-
-chelseametcalf1254552	00000ccaab287be752a12a8457de0a856eb015c0b39b17e51b4bc4662b926c21
-Total time to mine: 39923 ms      Coin Count: 1
-
-chelseametcalf139728b	00000bbf334cc703d5a79c8035d622ac376aac469ee95c72127ff25c975613e3
-Total time to mine: 39987 ms      Coin Count: 1
-
-Total time to mine: 39980 ms      Coin Count: 0
-
-chelseametcalf1814042	000005d6e2ba96293452c1fa06a2d4f3b426fd04832e97678973c3ecb5d82e5d
-chelseametcalf1824161	0000072573cf47a3433c6427cf6e12683f9c5a33c5b667ffe92bf7ca2d39b7e0
-Total time to mine: 39985 ms      Coin Count: 2
-
-chelseametcalf144fa57	00000019a5139f0aa93eda8d1298f8c5fa0ddd61492d9f17ec1e49ada87040da
-chelseametcalf1484575	0000040bc0ebf1895e02e3e66e85fc407e41ce0b56048b220d0c7aee74fb7772
-Total time to mine: 40007 ms      Coin Count: 2
-
-chelseametcalf1173405	0000019333974f911d803712d2858258179207e8e32ae63a7eb7151de2befaef
-Total time to mine: 40033 ms      Coin Count: 1
-
-Total time to mine: 40474 ms      Coin Count: 0
-
-chelseametcalf263e60a	000003ce15149a84c96469015c4064a93cd79858546f1a2cd8fcb115950337e8
-Total time to mine: 40466 ms      Coin Count: 1
-
-Total time to mine: 40497 ms      Coin Count: 0
-
-chelseametcalf23cc5d3	000003e5d3d3830012ca9150722ff54925fccd0e66cf71d1a7c2b716d1814f79
-Total time to mine: 40546 ms      Coin Count: 1
-
-chelseametcalf20cc853	00000fdaed20dd0039d96e796d7ab8884ebfa64a5b560daf12326b922c052bcd
-Total time to mine: 40572 ms      Coin Count: 1
-
-chelseametcalf272bd50	00000b5e08e7b4d6f0135f2fb26f5d03cca553b44b6ca41b31904f51c697aa3e
-chelseametcalf27411d9	00000dc91ee86579cd9b952deed5237fe1204a8bff29b1b482d9ffa083c82bed
-chelseametcalf27c067d	00000269181800933dba32cb925b28ce11b85621459e2f0a632bce099754f00d
-Total time to mine: 40569 ms      Coin Count: 3
-
-Total time to mine: 40583 ms      Coin Count: 0
-
-chelseametcalf257d4cd	0000098a642c5dfe9df592286a333764dece16e953671755a9afccdc8da12945
-Total time to mine: 40611 ms      Coin Count: 1
-
-chelseametcalf2ddbe51	00000a6d312f3415ed3465634c9e54e11b10823097e7e312b5750a4b617be9fa
-Total time to mine: 40010 ms      Coin Count: 1
-
-Total time to mine: 40077 ms      Coin Count: 0
-
-Total time to mine: 40140 ms      Coin Count: 0
-
-Total time to mine: 40189 ms      Coin Count: 0
-
-Total time to mine: 40246 ms      Coin Count: 0
-
-chelseametcalf2a82274	00000e260a1f14bcc734c9d63a2d11331f860f173efb02a538dfd50661927bdf
-chelseametcalf2aea1c8	000007b3686d3a180337e3d1d766679286ae2f0bb39fcad2a9a25c9173481480
-Total time to mine: 40279 ms      Coin Count: 2
-
-chelseametcalf2c4541e	000001a7363da6401484e67e8a59adf761caecbca59ba78b70d923eba3a22baa
-chelseametcalf2c9994b	000001cc67cfca7588e38b07f3a3c3d1ed6f2112ce85ebf6e3280a6ff045b225
-Total time to mine: 40299 ms      Coin Count: 2
-
-Total time to mine: 40362 ms      Coin Count: 0
-
-chelseametcalf3063e70	00000e62df7cfc45530aebbea7b9985cf28c1c05c6ceba8de49a612656665c34
-chelseametcalf307279b	000003dc55c0bd3b1899a91676ee51b1119b93826e19247513ae0334377c37ea
-Total time to mine: 40323 ms      Coin Count: 2
-
-Total time to mine: 40398 ms      Coin Count: 0
-
-chelseametcalf32ee17c	000006fc73b75eb0d22ba3d2f1bc4d588c8b5da186e874bb3ab9070033b81977
-chelseametcalf335ca8a	00000a02bfbd5fa1802e96b869d2ad95ec9cad997c7f94d26dadfd635d76ea93
-chelseametcalf336caa9	000009ad196e6735a70cff3ef74797dddcbd73a67d7ea8c84b41b36bdae46b14
-Total time to mine: 40450 ms      Coin Count: 3
-
-Total time to mine: 40460 ms      Coin Count: 0
-
-chelseametcalf34b457e	00000d3b7def6d35644ae94dd327f4b71673e3784cc8f38d3b2544838a834b27
-Total time to mine: 40457 ms      Coin Count: 1
-
-Total time to mine: 40472 ms      Coin Count: 0
-
-chelseametcalf35df491	0000077e6640ac2357e6e6c9a90dd031c5c993c3b5b4bd07492836ecb19314c0
-Total time to mine: 40532 ms      Coin Count: 1
-
-Total time to mine: 40560 ms      Coin Count: 0
-
-Total time to mine: 40004 ms      Coin Count: 0
-
-chelseametcalf3a71d9f	000003924153f116db013f9b9a23e2c11ef81ae3a54c5f1916877f55f15f90be
-Total time to mine: 40126 ms      Coin Count: 1
-
-chelseametcalf3bbaedd	000003c0f931ff94bd758df8e158fbf8d1d6d6c6ea35c3a80188c4c52a7387f5
-Total time to mine: 40195 ms      Coin Count: 1
-
-chelseametcalf39f3611	00000867ee4f04aa570bdcd082e80cd890457a20bd30df22dd2f085be3eaafa6
-Total time to mine: 40290 ms      Coin Count: 1
-
-chelseametcalf37af95c	0000029bce536fabf3a9e149c6c90cfffe0a2562bf394753194b4cdcc2241d60
-Total time to mine: 40305 ms      Coin Count: 1
-
-chelseametcalf3c28dd9	000002274237aa35055f7231798e7ef6310a24a60af60e3e76dfd67b5b807163
-chelseametcalf3d0375f	00000c9c3afa599b11a07458c602d52356effbc788ef34c8462d46320dd2b748
-Total time to mine: 40303 ms      Coin Count: 2
-
-chelseametcalf38a551a	00000caf7fb6690a91bd79ba836214881fa9006ba7cc9a90e47bfe97727761b1
-Total time to mine: 40336 ms      Coin Count: 1
-
-Total time to mine: 40350 ms      Coin Count: 0
-
-Total time to mine: 40167 ms      Coin Count: 0
-
-Total time to mine: 40185 ms      Coin Count: 0
-
-chelseametcalf3f06aaf	00000238fa67b27403eb1797f1f457d9865a81ea4286edaa8a4f1c682cd6910d
-chelseametcalf3f7c27d	0000015201455485fdbf42b7e10919508e643b49f8bc9ab79033dec12cea1bd2
-Total time to mine: 40246 ms      Coin Count: 2
-
-Total time to mine: 40270 ms      Coin Count: 0
-
-Total time to mine: 40277 ms      Coin Count: 0
-
-Total time to mine: 40275 ms      Coin Count: 0
-
-Total time to mine: 40392 ms      Coin Count: 0
-
-chelseametcalf45bf586	000008c8137353dd2b8d4e34e22b0a5c184bb2935b2a5688f545294fb296b49d
-Total time to mine: 40390 ms      Coin Count: 1
-
 chelseametcalf1f7458	00000e7bdd3c672f5c0cd551335622d7eb322633850475a59237e654b6987c04
 chelseametcalf280a73	000001135b0865030a6f4be2bd0593c7c3c59ac9721f96dad915886dce5a5b74
 chelseametcalf29ad98	0000036c05e323d84872447a94e3d9f2f1156813a3673f9ac33bf41e374b687a
 chelseametcalf2cec1a	00000cf05f24cf1ff0bb7b4d74a46e84373b69c8963fbc7f733879bf6c1752ce
-Total time to mine: 71225 ms      Coin Count: 4
+Total time to mine: 38898 ms      Coin Count: 4
 
-chelseametcalf32dceb	000003923b5a4a3dd6744365abda95244a1a952bf2f4fa25a331c01ff061e28b
-Total time to mine: 72508 ms      Coin Count: 1
+Total time to mine: 38907 ms      Coin Count: 0
 
 chelseametcalf1dbea3	00000fb3f0c94074caf1b970653a74c04bb6ef46fa6353414fe771eb406d2600
-Total time to mine: 72574 ms      Coin Count: 1
+Total time to mine: 38916 ms      Coin Count: 1
 
-Total time to mine: 72859 ms      Coin Count: 0
+chelseametcalf32dceb	000003923b5a4a3dd6744365abda95244a1a952bf2f4fa25a331c01ff061e28b
+Total time to mine: 38950 ms      Coin Count: 1
 
-Total time to mine: 72945 ms      Coin Count: 0
+Total time to mine: 38959 ms      Coin Count: 0
 
 chelseametcalf786bbc	00000ee0228f3a422eb30d8845864b3919721e9b4a68972ac26dc8d91108234e
-Total time to mine: 73015 ms      Coin Count: 1
+Total time to mine: 38967 ms      Coin Count: 1
+
+Total time to mine: 38970 ms      Coin Count: 0
 
 chelseametcalf7bfb61	00000864ad148f22d333e263ee7507bd5126fc3900bd3cbb760a7bf11356209f
 chelseametcalf7dd56a	000007b1ba52ab5ca256cdf031bf653dfd92bf5b2065eb13b462dd5c5759a23d
-Total time to mine: 73492 ms      Coin Count: 2
+Total time to mine: 38984 ms      Coin Count: 2
 
-Total time to mine: 73552 ms      Coin Count: 0
+chelseametcalfc9263c	00000a10b7e380eeb70646e72a98e2cc9687475e807f1bda5bda2f9e88108baf
+Total time to mine: 40264 ms      Coin Count: 1
 
-Total time to mine: 72388 ms      Coin Count: 0
+chelseametcalfa039dc	0000020d55b2a6ea7ef8606444a92962684d5582e754bf62d7c28654085110df
+Total time to mine: 40286 ms      Coin Count: 1
 
-Total time to mine: 72848 ms      Coin Count: 0
+chelseametcalfddcd6b	00000977d11d056081281aa87197dec579713836057f3a5dae4a56bdf4102308
+Total time to mine: 40369 ms      Coin Count: 1
 
-chelseametcalf1aaac8a	00000c29d1273db8663821e7a8feef85b2fabcd9a38c375a5109012a2ca86710
-Total time to mine: 73126 ms      Coin Count: 1
+chelseametcalfe66f80	00000d565c98561e3becf3ad7e6224b95a59c688ffe9af51108fff70d1f19454
+Total time to mine: 40422 ms      Coin Count: 1
 
-Total time to mine: 73248 ms      Coin Count: 0
+chelseametcalff5be2a	00000556448b59093fd338fc9e0a6df2f84b6740864aa29dc2418e586b4d4a3d
+chelseametcalff9bfbd	00000aaccbc58a6ce3962506bd03ec8c957278b66afd62128e83fde210188708
+Total time to mine: 40433 ms      Coin Count: 2
 
-chelseametcalf1b199c2	00000076ea4b3c98671c4c7dd835583c35dba1431480d89b097bf6fa2a0ab2b7
-Total time to mine: 73452 ms      Coin Count: 1
+chelseametcalfbadf80	000003d78afc3e0ae8fabfc781d4832acae315348c27d3ae2c0816ea7cdcee70
+Total time to mine: 40453 ms      Coin Count: 1
 
-chelseametcalf20035b0	0000014e05c96e378d5e47136647f4e6684ec29beca62c81153bb249327c1a08
-Total time to mine: 73568 ms      Coin Count: 1
+chelseametcalfac9620	00000040dc02f4874bb3c1bf11d1ace47d3e9fc7bffc566ce8a6b8331974c66e
+Total time to mine: 40465 ms      Coin Count: 1
+
+chelseametcalf10c85a2	00000440b7f804b4ea38facbcc02820f7184336a0bb7ded4086868bc93cedce5
+Total time to mine: 40547 ms      Coin Count: 1
+
+chelseametcalf15516c3	000009e5e0fad125475bc880ed2c5884ebc775ad4a3ac196ab77d9a309353d81
+Total time to mine: 39891 ms      Coin Count: 1
+
+chelseametcalf1173405	0000019333974f911d803712d2858258179207e8e32ae63a7eb7151de2befaef
+Total time to mine: 40020 ms      Coin Count: 1
+
+Total time to mine: 40125 ms      Coin Count: 0
+
+chelseametcalf139728b	00000bbf334cc703d5a79c8035d622ac376aac469ee95c72127ff25c975613e3
+Total time to mine: 40143 ms      Coin Count: 1
+
+chelseametcalf1814042	000005d6e2ba96293452c1fa06a2d4f3b426fd04832e97678973c3ecb5d82e5d
+chelseametcalf1824161	0000072573cf47a3433c6427cf6e12683f9c5a33c5b667ffe92bf7ca2d39b7e0
+Total time to mine: 40166 ms      Coin Count: 2
+
+chelseametcalf144fa57	00000019a5139f0aa93eda8d1298f8c5fa0ddd61492d9f17ec1e49ada87040da
+chelseametcalf1484575	0000040bc0ebf1895e02e3e66e85fc407e41ce0b56048b220d0c7aee74fb7772
+Total time to mine: 40243 ms      Coin Count: 2
+
+chelseametcalf167c1cb	000008acaba8ad430eb7ab2533ee8e7069c7b0e6471e7069ee8c15b9bc5c92c5
+Total time to mine: 40289 ms      Coin Count: 1
+
+chelseametcalf1254552	00000ccaab287be752a12a8457de0a856eb015c0b39b17e51b4bc4662b926c21
+Total time to mine: 40299 ms      Coin Count: 1
+
+Total time to mine: 39524 ms      Coin Count: 0
+
+Total time to mine: 39669 ms      Coin Count: 0
 
 chelseametcalf1ec2693	0000041e58cc6deaf9abb524af57a53d6b475efba25419d7ca5955e789a2061d
 chelseametcalf1f0787d	00000fa178958f7d5fdaff2c569d09ef846687b25e306591cd2627c0c42e96c0
-Total time to mine: 73768 ms      Coin Count: 2
+Total time to mine: 39669 ms      Coin Count: 2
 
 chelseametcalf1bdf7b5	000001a6c71411c325641b707c8f546040af488058159b917bd6470f1f8f9284
-Total time to mine: 73807 ms      Coin Count: 1
+Total time to mine: 39687 ms      Coin Count: 1
 
-TOTAL COIN COUNT: 62
+chelseametcalf20035b0	0000014e05c96e378d5e47136647f4e6684ec29beca62c81153bb249327c1a08
+Total time to mine: 39680 ms      Coin Count: 1
 
-315.456u 0.855s 1:22.02 385.6%	0+0k 0+416io 0pf+0w
+chelseametcalf1aaac8a	00000c29d1273db8663821e7a8feef85b2fabcd9a38c375a5109012a2ca86710
+Total time to mine: 39709 ms      Coin Count: 1
+
+chelseametcalf1b199c2	00000076ea4b3c98671c4c7dd835583c35dba1431480d89b097bf6fa2a0ab2b7
+Total time to mine: 39709 ms      Coin Count: 1
+
+Total time to mine: 39725 ms      Coin Count: 0
+
+chelseametcalf257d4cd	0000098a642c5dfe9df592286a333764dece16e953671755a9afccdc8da12945
+Total time to mine: 40571 ms      Coin Count: 1
+
+Total time to mine: 40613 ms      Coin Count: 0
+
+Total time to mine: 40636 ms      Coin Count: 0
+
+Total time to mine: 40650 ms      Coin Count: 0
+
+chelseametcalf272bd50	00000b5e08e7b4d6f0135f2fb26f5d03cca553b44b6ca41b31904f51c697aa3e
+chelseametcalf27411d9	00000dc91ee86579cd9b952deed5237fe1204a8bff29b1b482d9ffa083c82bed
+chelseametcalf27c067d	00000269181800933dba32cb925b28ce11b85621459e2f0a632bce099754f00d
+Total time to mine: 40679 ms      Coin Count: 3
+
+chelseametcalf20cc853	00000fdaed20dd0039d96e796d7ab8884ebfa64a5b560daf12326b922c052bcd
+Total time to mine: 40697 ms      Coin Count: 1
+
+chelseametcalf263e60a	000003ce15149a84c96469015c4064a93cd79858546f1a2cd8fcb115950337e8
+Total time to mine: 40707 ms      Coin Count: 1
+
+chelseametcalf23cc5d3	000003e5d3d3830012ca9150722ff54925fccd0e66cf71d1a7c2b716d1814f79
+Total time to mine: 40725 ms      Coin Count: 1
+
+Total time to mine: 39907 ms      Coin Count: 0
+
+chelseametcalf2ddbe51	00000a6d312f3415ed3465634c9e54e11b10823097e7e312b5750a4b617be9fa
+Total time to mine: 39913 ms      Coin Count: 1
+
+Total time to mine: 39936 ms      Coin Count: 0
+
+Total time to mine: 39979 ms      Coin Count: 0
+
+chelseametcalf2a82274	00000e260a1f14bcc734c9d63a2d11331f860f173efb02a538dfd50661927bdf
+chelseametcalf2aea1c8	000007b3686d3a180337e3d1d766679286ae2f0bb39fcad2a9a25c9173481480
+Total time to mine: 40002 ms      Coin Count: 2
+
+Total time to mine: 40028 ms      Coin Count: 0
+
+Total time to mine: 40044 ms      Coin Count: 0
+
+chelseametcalf2c4541e	000001a7363da6401484e67e8a59adf761caecbca59ba78b70d923eba3a22baa
+chelseametcalf2c9994b	000001cc67cfca7588e38b07f3a3c3d1ed6f2112ce85ebf6e3280a6ff045b225
+Total time to mine: 40070 ms      Coin Count: 2
+
+Total time to mine: 40456 ms      Coin Count: 0
+
+chelseametcalf32ee17c	000006fc73b75eb0d22ba3d2f1bc4d588c8b5da186e874bb3ab9070033b81977
+chelseametcalf335ca8a	00000a02bfbd5fa1802e96b869d2ad95ec9cad997c7f94d26dadfd635d76ea93
+chelseametcalf336caa9	000009ad196e6735a70cff3ef74797dddcbd73a67d7ea8c84b41b36bdae46b14
+Total time to mine: 40506 ms      Coin Count: 3
+
+chelseametcalf34b457e	00000d3b7def6d35644ae94dd327f4b71673e3784cc8f38d3b2544838a834b27
+Total time to mine: 40553 ms      Coin Count: 1
+
+chelseametcalf3063e70	00000e62df7cfc45530aebbea7b9985cf28c1c05c6ceba8de49a612656665c34
+chelseametcalf307279b	000003dc55c0bd3b1899a91676ee51b1119b93826e19247513ae0334377c37ea
+Total time to mine: 40606 ms      Coin Count: 2
+
+Total time to mine: 40610 ms      Coin Count: 0
+
+chelseametcalf35df491	0000077e6640ac2357e6e6c9a90dd031c5c993c3b5b4bd07492836ecb19314c0
+Total time to mine: 40645 ms      Coin Count: 1
+
+Total time to mine: 40681 ms      Coin Count: 0
+
+Total time to mine: 40770 ms      Coin Count: 0
+
+chelseametcalf37af95c	0000029bce536fabf3a9e149c6c90cfffe0a2562bf394753194b4cdcc2241d60
+Total time to mine: 38993 ms      Coin Count: 1
+
+Total time to mine: 38994 ms      Coin Count: 0
+
+chelseametcalf39f3611	00000867ee4f04aa570bdcd082e80cd890457a20bd30df22dd2f085be3eaafa6
+Total time to mine: 39066 ms      Coin Count: 1
+
+chelseametcalf3c28dd9	000002274237aa35055f7231798e7ef6310a24a60af60e3e76dfd67b5b807163
+chelseametcalf3d0375f	00000c9c3afa599b11a07458c602d52356effbc788ef34c8462d46320dd2b748
+Total time to mine: 39069 ms      Coin Count: 2
+
+chelseametcalf3bbaedd	000003c0f931ff94bd758df8e158fbf8d1d6d6c6ea35c3a80188c4c52a7387f5
+Total time to mine: 39135 ms      Coin Count: 1
+
+Total time to mine: 39135 ms      Coin Count: 0
+
+chelseametcalf38a551a	00000caf7fb6690a91bd79ba836214881fa9006ba7cc9a90e47bfe97727761b1
+Total time to mine: 39190 ms      Coin Count: 1
+
+chelseametcalf3a71d9f	000003924153f116db013f9b9a23e2c11ef81ae3a54c5f1916877f55f15f90be
+Total time to mine: 39209 ms      Coin Count: 1
+
+TOTAL COIN COUNT: 59
+
+304.598u 0.757s 0:56.60 539.4%	0+0k 0+312io 0pf+0w

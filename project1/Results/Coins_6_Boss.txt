@@ -1,0 +1,51 @@
+Local IP Address: 128.227.205.151
+Boss: 
+Number of Zeros Specified:  6
+[INFO] [09/13/2015 15:00:14.056] [main] [Remoting] Starting remoting
+[INFO] [09/13/2015 15:00:14.132] [main] [Remoting] Remoting started; listening on addresses :[akka.tcp://BossSystem@128.227.205.151:8397]
+[INFO] [09/13/2015 15:00:14.133] [main] [Remoting] Remoting now listens on addresses: [akka.tcp://BossSystem@128.227.205.151:8397]
+The BOSS is alive
+Total time to mine: 760485 ms      Coin Count: 0
+
+Total time to mine: 762866 ms      Coin Count: 0
+
+Total time to mine: 766074 ms      Coin Count: 0
+
+Total time to mine: 766833 ms      Coin Count: 0
+
+Total time to mine: 767085 ms      Coin Count: 0
+
+chelseametcalf72b6838	000000e6df44a345b2d811326feb0c84ed8024fddee2236ce5ca83c74185e671
+chelseametcalf77034f2	0000007496da6a7bc7e5d35f3bb7a776e49b201345698b40a6cb25e045e45fcc
+Total time to mine: 767627 ms      Coin Count: 2
+
+chelseametcalf97874f5	00000085f9dc94461d5669f8df1e1a7a1f73ef7a4f9c74e8accd03c898ebffa7
+Total time to mine: 767649 ms      Coin Count: 1
+
+chelseametcalf87531c3		00000030ab3962858ba5b8e4be212040852a15e0124c5dda2491ec189002cd93
+Total time to mine: 767903 ms      Coin Count: 1
+
+Total time to mine: 768488 ms      Coin Count: 0
+
+Total time to mine: 768629 ms      Coin Count: 0
+
+chelseametcalf144fa57	00000019a5139f0aa93eda8d1298f8c5fa0ddd61492d9f17ec1e49ada87040da
+chelseametcalf1b199c2	00000076ea4b3c98671c4c7dd835583c35dba1431480d89b097bf6fa2a0ab2b7
+Total time to mine: 768911 ms      Coin Count: 2
+
+chelseametcalf5d416e4	00000001f6e834296093ce424f45749f5eac5d51da623886b7ff22f3c81b06d7
+Total time to mine: 769630 ms      Coin Count: 1
+
+chelseametcalfac9620	00000040dc02f4874bb3c1bf11d1ace47d3e9fc7bffc566ce8a6b8331974c66e
+Total time to mine: 770037 ms      Coin Count: 1
+
+chelseametcalf4ef9fe7	000000199fd0738277a40b899cc9788dd5521121d893e753992b689ab6779ac0
+Total time to mine: 770175 ms      Coin Count: 1
+
+Total time to mine: 770233 ms      Coin Count: 0
+
+Total time to mine: 770468 ms      Coin Count: 0
+
+TOTAL COIN COUNT: 9
+
+6003.508u 3.973s 12:51.01 779.1%	0+0k 0+1192io 0pf+0w
