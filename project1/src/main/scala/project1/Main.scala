@@ -34,9 +34,9 @@ object Main {
     mapServer.put("akka.remote.netty.tcp.port", "8397")
     val akkaConfigServer = ConfigFactory.parseMap(mapServer)
     val system = ActorSystem("BossSystem", akkaConfigServer)
-    val remoteActor = system.actorOf(Props (new Boss(numOfZeros)), name = "BossActor")
-    remoteActor ! "The Server is alive"
-    remoteActor ! "Server needs work!"
+    val bossActor = system.actorOf(Props (new Boss(numOfZeros)), name = "BossActor")
+    bossActor ! "The Server is alive"
+    bossActor ! "Server needs work!"
   }
 
   def runAsClient(ipAddress: String) = {
@@ -46,8 +46,8 @@ object Main {
     mapWorker.put("akka.remote.netty.tcp.port", "0")
     val akkaConfigClient = ConfigFactory.parseMap(mapWorker)
     implicit val system = ActorSystem("WorkerSystem", akkaConfigClient)
-    val localActor = system.actorOf(Props[Worker], name = "LocalActor")   // the local actor
-    localActor ! "START WORKER"                                          // start the action
+    val workerActor = system.actorOf(Props[Worker], name = "WorkerActor")   // the local actor
+    workerActor ! "START WORKER"                                          // start the action
   }
 
 }
