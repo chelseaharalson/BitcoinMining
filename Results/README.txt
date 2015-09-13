@@ -1,7 +1,6 @@
 Chelsea Metcalf
-4328-8397
 
------------------- USAGE ------------------
+------------------ USAGE & SOURCE CODE ------------------
 I compiled the program into a jar using the assembly plugin.
 
 First, run the boss like:
@@ -18,57 +17,83 @@ As specified in the directions to include build.sbt, one can also run the progra
 sbt "project project1" "run 4"
 sbt "project project1" "run 128.227.205.151"
 
+In the code, the variables workSize and cycles in Boss.scala are meant to be changed. The cycles variable represents how many actors are spawned. I changed these two things when testing.
+
+----------------------------------------------------------------------------------------
+
 
 ------------------ SIZE OF WORK UNIT ------------------
 I conducted my testing on one machine with 8 cores.
 
-The size of work unit that I determined was best is 1000000 because performance (using the time command) was measured to be 764.2% and the time it took to run the program was under a minute. The ratio of CPU time to real time was 7.642, which is good because it is close to 8, which is the amount of cores that the machine had.
+The size of work unit that I determined was best is 1,000,000 because performance (using the time command) was measured to be 770.9% and the time it took to run the program was under a minute. The ratio of CPU time to real time was 7.709, which is good because it is close to 8, which is the amount of cores that the machine had. I spawned 8 actors.
 
-Below is a sample of the output from running: time java -jar project1.jar 4 :
-chelseametcalf10b8f0	00002c623269872ffaf6682689f898c93016283590156b93cf9adda7ed40b3fe
-chelseametcalf117929	00006e9b5293e954db5cb6c62b42adea8a092f8b4ff5dfcb800aa77fe27054e9
-chelseametcalf12d3f1	0000cd8a745ec1331e518d52ef10482252fc6662a461c3bc3bbaa4fe92d62dd5
-chelseametcalf157b8b	0000f9d8e0f01721029b4d2edbad4f5b13bde559cda1acd77bdd451285b4d59d
-chelseametcalf158ae6	0000ded456d53c404287fa689593da7f5acaca97bc712cdbac11c308f669b104
-chelseametcalf16029f	00005e9013c3256f18a031cb298ed2b35d6ebbce0750c1d4aa7895cd4ac840b4
-chelseametcalf163bae	0000989db02b4cb3ca85d471ae907313bfb16d293751a9460b4e35ecdeebb0e8
-chelseametcalf1903b4	0000535b9ba532620dbeec6116cea81ade4ca86f044baf47463aac4bfb47fb2a
-chelseametcalf1909a6	0000ce76d9ddad80689a1bf6210517738c9d03cd3fbd51d6644a357feeb68031
-chelseametcalf1afa2f	0000872d17497d55a3770cae7bd06bcc14dec6ead559dfda9370350d7a79ee74
-chelseametcalf1b5586	00006ec7832eb272d28a456a0dce6508b4663529234f371abec0951773adabc0
-chelseametcalf1c0d0b	000022c227a442b77e61f7eeea3ab46805e03de53e0fac6721d629fea121cbaf
-chelseametcalf1c3569	0000ebdd4a412aed667b39d0b82fcd4e0fc0b5f83b7f0aed89007e39114d0767
-chelseametcalf1dbea3	00000fb3f0c94074caf1b970653a74c04bb6ef46fa6353414fe771eb406d2600
-chelseametcalf1dd969	0000493cbb6c3a029ed8d7ddacda48e637d6223c99dfd50f33fe061686ae1327
+Below is a sample of the output from running: "time java -jar project1.jar 4" (the full version is in Coins_4_Boss.txt):
+chelseametcalf308f53	000087c3bfea6fbbdcb211a92a2d0d585e0050a790195c08d11ce2da886d4e38
+chelseametcalf312e74	0000e8f86ddff65b08aae6fd6b4b1bbad1cb9630175a007d1b6456e7f181a4ac
+chelseametcalf315f3a	0000d74f85f2f8d97702a2f469619fc89dd30f294ab3ef9174a462683dec3e00
+chelseametcalf32dceb	000003923b5a4a3dd6744365abda95244a1a952bf2f4fa25a331c01ff061e28b
+chelseametcalf339426	000022de69faf796988c5a0fdb9f929337151e906bfb3f0a32ef4e3469bf59a5
+chelseametcalf33c61d	000061c855543cd36497d6432e09429d4b5fd5fa32ab56e35b9d126fb4dfcd49
+chelseametcalf3487ef	0000b271248fe7d100382582953340226a1b70e493655d3c4ce40a89f79612d8
+chelseametcalf36599a	00001ba91ad7b8d13e815e9e3b2b8042a358835419158c5cf17c2e88a8c7fbc4
+chelseametcalf367a9e	0000ec1cd936913e1e6aa5236f0f091e6bae5aa27d50ccbf537140b87aa7221f
+chelseametcalf398684	00009155367e449c1162b2597409bbdd1d1e2a6db91fec3e8df7711d8dbbcd61
+chelseametcalf39c750	00008ada4f1dda49fedfe0d68f2b97da47ce0cc03d72f8c88b9dfaaa8d7e07f3
+chelseametcalf39e4b6	00002980751565efe56a7a24fcceaa8218dac5939d68923d237ca75f528171dd
+chelseametcalf3a02f5	000029f7db8c30068e610378b2cac710c13ddeb62c9ff653bb13ee9136c6e889
+chelseametcalf3a9b9b	000055717688843cea008fa076bcc0d2395a39e8becc6ac99e67c5c62f48a524
+chelseametcalf3bd58b	0000254ed96fb3d79670c1437e480b2566fed12b4c09992a42c0fe034aadee56
 
-TOTAL COIN COUNT: 136
+TOTAL COIN COUNT: 113
 
-383.095u 0.477s 0:50.19 764.2%	0+0k 0+368io 0pf+0w
+313.901u 0.505s 0:40.78 770.9%	0+0k 0+248io 0pf+0w
 
-I tried other values for the work size and measured the performance. I found that increasing the work size actually helped performance. But I decided 1000000 because it took a reasonable amount of time to execute the program.
+I tried other values for the work size and measured the performance. I found that increasing the work size actually helped performance. But I decided to use 1,000,000 because it took a reasonable amount of time to execute the program.
+
+----------------------------------------------------------------------------------------
 
 
 ------------------ RESULT OF 4 LEADING ZEROS ------------------
-Please see Coins_1000000_BOSS_4.txt for the exact output and coins found.
+Please see Coins_4_Boss.txt for the exact output and coins found.
+
+Work size unit: 1,000,000
+Cycles/Actors: 8
+
+Total coins found: 113
 
 Performance of "time java -jar project1.jar 4" :
-398.200u 0.485s 0:51.83 769.2%	0+0k 0+312io 0pf+0w
+313.901u 0.505s 0:40.78 770.9%	0+0k 0+248io 0pf+0w
 
-As you can see, the ratio of CPU time to real time is 7.692, which is close to 8.
+As you can see, the ratio of CPU time to real time is 7.709, which is close to 8.
+
+----------------------------------------------------------------------------------------
 
 
 ------------------ RESULT OF 5 LEADING ZEROS ------------------
-Please see Coins_1000000_BOSS_5.txt for the exact output and coins found.
+Please see Coins_5_Boss.txt for the exact output and coins found.
+
+Work size unit: 1,000,000
+Cycles/Actors: 8
+
+Total coins found: 9
 
 Performance of "time java -jar project1.jar 5" :
-387.057u 0.542s 0:50.52 767.2%	0+0k 0+432io 0pf+0w
+318.344u 0.461s 0:41.38 770.4%	0+0k 0+232io 0pf+0w
 
-As you can see, the ratio of CPU time to real time is 7.672, which is close to 8.
+As you can see, the ratio of CPU time to real time is 7.704, which is close to 8.
+
+----------------------------------------------------------------------------------------
 
 
 ------------------ COIN WITH THE MOST ZEROS FOUND ------------------
-The coin with the most 0's I managed to find was: 
-This was my result with a work size of 
+The coin with the most 0's I managed to find was:
+chelseametcalf5d416e4	00000001f6e834296093ce424f45749f5eac5d51da623886b7ff22f3c81b06d7
+(7 zeros)
+
+This was my result with a work size of 10,000,000 and spawning 16 actors on one machine.
+6033.969u 4.173s 12:54.17 779.9%	0+0k 0+1224io 0pf+0w
+
+----------------------------------------------------------------------------------------
 
 
 ------------------ LARGEST NUMBER OF WORKING MACHINES ------------------
@@ -78,10 +103,26 @@ ssh lin312-02
 
 The max I could ssh into was from machines 02 to 09. All of these machines have 8 cores. I ran my program on all 8 to mine the coins.
 
-In these files, you will find the results of running "time java -jar project1.jar 4" and "time java -jar project1.jar 5" on 8 machines with a work size unit of 1000000.
+In these files, you will find the results of running "time java -jar project1.jar 4" and "time java -jar project1.jar 5" on 8 machines with a work size unit of 1,000,000.
 
-Coins_1000000_4.txt
-Coins_1000000_5.txt
+Work size unit: 1,000,000
+Cycles/Actors: 8
 
-Most coins found with 4 leading zeros: 1276
-Most coins found with 5 leading zeros: 68
+Coins_4_MoreWorkers.txt
+Coins_5_MoreWorkers.txt
+
+Most coins found with 4 leading zeros: 1010
+311.742u 0.750s 0:55.71 560.9%	0+0k 34504+568io 1pf+0w
+
+Most coins found with 5 leading zeros: 59
+304.598u 0.757s 0:56.60 539.4%	0+0k 0+312io 0pf+0w
+
+----------------------------------------------------------------------------------------
+
+
+------------------ MORE FILES (RESULTS) ------------------
+Coins_6_Boss.txt - 1 machine; work size: 10,000,000; 16 cycles/actors
+Coins_7_Boss.txt - 1 machine; work size: 10,000,000; 16 cycles/actors
+Coins_7_MoreWorkers.txt - 8 machines; work size: 10,000,000; 16 cycles/actors
+
+----------------------------------------------------------------------------------------
