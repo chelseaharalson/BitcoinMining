@@ -22,15 +22,17 @@ class MineCoinsBoss() extends Actor {
 class Boss(numOfZeros: Long) extends Actor {
   var start: Long = 0
   var end: Long = 0
-  // For testing:
-  //val workSize: Long = 1000000000
-  val workSize: Long = 1000000
+  // -------------------- For testing (can change work size):
   //val workSize: Long = 10000
+  val workSize: Long = 1000000
+  //val workSize: Long = 10000000
+  //val workSize: Long = 1000000000
   var totalAmtOfCoins: Integer = 0
-  // For testing:
+  // -------------------- For testing (can change cycles):
   //val cycles: Long = 4
-  //val cycles: Long = 10
   val cycles: Long = 8
+  //val cycles: Long = 10
+  //val cycles: Long = 16
   var cycleCount: Long = 0
 
   def receive = {
