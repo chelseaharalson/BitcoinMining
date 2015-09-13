@@ -29,7 +29,8 @@ class Boss(numOfZeros: Long) extends Actor {
   var totalAmtOfCoins: Integer = 0
   // For testing:
   //val cycles: Long = 4
-  val cycles: Long = 10
+  //val cycles: Long = 10
+  val cycles: Long = 8
   var cycleCount: Long = 0
 
   def receive = {
