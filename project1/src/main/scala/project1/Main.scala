@@ -46,7 +46,7 @@ object Main {
     mapWorker.put("akka.remote.netty.tcp.port", "0")
     val akkaConfigClient = ConfigFactory.parseMap(mapWorker)
     implicit val system = ActorSystem("WorkerSystem", akkaConfigClient)
-    val localActor = system.actorOf(Props[Worker], name = "LocalActor")  // the local actor
+    val localActor = system.actorOf(Props[Worker], name = "LocalActor")   // the local actor
     localActor ! "START WORKER"                                          // start the action
   }
 

@@ -9,7 +9,7 @@ import akka.actor.{Actor}
 class Worker extends Actor {
   // create the remote actor
   // needs to be same IP address as the Boss/server
-  val remote = context.actorSelection("akka.tcp://BossSystem@128.227.205.151:8397/user/BossActor")
+  val remote = context.actorSelection("akka.tcp://BossSystem@10.0.0.4:8397/user/BossActor")
 
   def receive = {
     case DoWork(numOfZeros,start,end) => {
