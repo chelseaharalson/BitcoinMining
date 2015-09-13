@@ -32,12 +32,14 @@ class DataMining {
     output
   }
 
+  // Generate the hash
   def getCoinHash(idx: Long): (String, String) = {
     val inputString = "chelseametcalf" + Integer.toHexString(idx.toInt)
-    val hash = inputString.sha256.hex     // used Hasher lib (a small Scala lib for generating hashes)
+    val hash = inputString.sha256.hex     // used Hasher library (a small Scala library for generating hashes)
     (inputString, hash)
   }
 
+  // Get pattern with leading number of zeros
   def getPattern(numOfZeros: Long) = {
     var s = ""
     var i = 0
@@ -48,6 +50,7 @@ class DataMining {
     s
   }
 
+  // Return coin count
   def getCoinCount() = {
     coinCount
   }

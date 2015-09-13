@@ -12,13 +12,13 @@ object Main {
   def main(args: Array[String]) = {
     println("Local IP Address: " + InetAddress.getLocalHost().getHostAddress())
     if (isNumber(args(0))) {
-      println("Server: ")
-      println("Number of Zeroes Specified:  " + args(0))
-      runAsServer(args(0).toLong)
+      println("Boss: ")
+      println("Number of Zeros Specified:  " + args(0))
+      runBoss(args(0).toLong)
     }
     else {
       println("Worker: ")
-      runAsClient(args(0))
+      runWorker(args(0))
     }
   }
 
@@ -27,29 +27,27 @@ object Main {
     inputString.forall(_.isDigit)
   }
 
-  def runAsServer(numOfZeros: Long) = {
+  def runBoss(numOfZeros: Long) = {
     val mapServer = new java.util.HashMap[String, Object]
     mapServer.put("akka.actor.provider", "akka.remote.RemoteActorRefProvider")
     mapServer.put("akka.remote.netty.tcp.hostname", InetAddress.getLocalHost.getHostAddress)
     mapServer.put("akka.remote.netty.tcp.port", "8397")
-    val akkaConfigServer = ConfigFactory.parseMap(mapServer)
-    val system = ActorSystem("BossSystem", akkaConfigServer)
+    val akkaConfigBoss = ConfigFactory.parseMap(mapServer)
+    val system = ActorSystem("BossSystem", akkaConfigBoss)
     val bossActor = system.actorOf(Props (new Boss(numOfZeros)), name = "BossActor")
-    bossActor ! "The Server is alive"
+    bossActor ! "The BOSS is alive"
     bossActor ! "Server needs work!"
   }
 
-  def runAsClient(ipAddress: String) = {
+  def runWorker(ipAddress: String) = {
     val mapWorker = new java.util.HashMap[String, Object]
     mapWorker.put("akka.actor.provider", "akka.remote.RemoteActorRefProvider")
-    //println("Passed in IP Address: " + ipAddress)
-    //println("Local host IP Address: " + InetAddress.getLocalHost.getHostAddress)
     mapWorker.put("akka.remote.netty.tcp.hostname", InetAddress.getLocalHost.getHostAddress)
     mapWorker.put("akka.remote.netty.tcp.port", "0")
-    val akkaConfigClient = ConfigFactory.parseMap(mapWorker)
-    implicit val system = ActorSystem("WorkerSystem", akkaConfigClient)
-    val workerActor = system.actorOf(Props (new Worker(ipAddress)), name = "WorkerActor")   // the local actor
-    workerActor ! "START WORKER"                                          // start the action
+    val akkaConfigWorker = ConfigFactory.parseMap(mapWorker)
+    implicit val system = ActorSystem("WorkerSystem", akkaConfigWorker)
+    val workerActor = system.actorOf(Props (new Worker(ipAddress)), name = "WorkerActor")
+    workerActor ! "START WORKER"
   }
 
 }

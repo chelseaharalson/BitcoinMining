@@ -1,15 +1,12 @@
 package project1
 
-import java.net.InetAddress
-
 import akka.actor._
 
 /**
  * Created by chelsea on 9/6/15.
  */
 
-// The Boss acts like a server. It keeps track of all the problems and performs the job assignment.
-class MineCoins() extends Actor {
+class MineCoinsBoss() extends Actor {
   def receive = {
     case DoWorkBoss(numOfZeros,start,end) => {
       val dm = new DataMining()
@@ -20,15 +17,18 @@ class MineCoins() extends Actor {
   }
 }
 
+// The Boss acts like a server. It keeps track of all the problems and performs the job assignment.
+// The variables workSize and cycles are meant to be changed.
 class Boss(numOfZeros: Long) extends Actor {
   var start: Long = 0
   var end: Long = 0
-  val workSize: Long = 100000
   // For testing:
+  //val workSize: Long = 1000000000
+  val workSize: Long = 1000000
   //val workSize: Long = 10000
   var totalAmtOfCoins: Integer = 0
-  //val cycles: Long = 4
   // For testing:
+  //val cycles: Long = 4
   val cycles: Long = 10
   var cycleCount: Long = 0
 
@@ -36,8 +36,9 @@ class Boss(numOfZeros: Long) extends Actor {
     case msgFromServer: String => {
       if (msgFromServer.equals("Worker needs work!")) {
         println("Start Worker: " + start + " to " + end)
-        sender ! DoWorkWorker(numOfZeros,end,cycles,workSize) // By using sender, one can refer to the actor that sent the message that the current actor last received
-        start = start + (cycles * workSize)
+        // By using sender, one can refer to the actor that sent the message that the current actor last received
+        sender ! DoWorkWorker(numOfZeros,end,cycles,workSize)
+        start = start + (cycles * workSize)   // Grab this chunk of work
         end = start + workSize
         cycleCount = cycleCount + cycles
       }
@@ -47,19 +48,20 @@ class Boss(numOfZeros: Long) extends Actor {
         while (i < cycles) {
           start = start + workSize
           end = start + workSize
-          context.actorOf(Props(new MineCoins)) ! DoWorkBoss(numOfZeros,start,end)
+          context.actorOf(Props(new MineCoinsBoss)) ! DoWorkBoss(numOfZeros,start,end)
           i += 1
         }
       }
       else {
-        println(s"Boss received message '$msgFromServer'")
+        println(msgFromServer)
       }
     }
     case CoinCount(count) => {
       cycleCount -= 1
       totalAmtOfCoins = totalAmtOfCoins + count
       if (cycleCount == 0) {
-        println("Total coin count!!!: " + totalAmtOfCoins)
+        println("TOTAL COIN COUNT: " + totalAmtOfCoins)
+        // I shut down the program when it was done mining. However this line below can be commented out to leave the Boss running, so new workers can pick up work.
         context.system.shutdown
       }
     }

@@ -1,6 +1,5 @@
 package project1
 
-import java.net.InetAddress
 import akka.actor.{Props, Actor}
 
 /**
@@ -10,21 +9,15 @@ import akka.actor.{Props, Actor}
 class MineCoinsWorker() extends Actor {
   def receive = {
     case DoWorkBoss(numOfZeros,start,end) => {
-      //println("It works!! Start: " + start)
       val dm = new DataMining()
       sender ! dm.mine(numOfZeros,start,end)
       //sender ! "WORKER: " + start + "   " + end
       sender ! CoinCount(dm.getCoinCount())
     }
-    /*case msg: String => {
-      println("It works!!")
-    }*/
   }
 }
 
 class Worker(ipAddress: String) extends Actor {
-  // create the remote actor
-  // needs to be same IP address as the Boss/server
   val remote = context.actorSelection("akka.tcp://BossSystem@" + ipAddress + ":8397/user/BossActor")
   var startWork: Long = 0
   var endWork: Long = 0
@@ -34,8 +27,8 @@ class Worker(ipAddress: String) extends Actor {
   def receive = {
     case DoWorkWorker(numOfZeros,start,cycles,workSize) => {
       lCycles = cycles
-      var i = 0
       startWork = start
+      var i = 0
       while (i < cycles) {
         startWork = startWork + workSize
         endWork = startWork + workSize
